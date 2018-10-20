@@ -1,4 +1,4 @@
-# **About Veco**
+## **About Veco**
 
 **VECO** is a new innovative cryptocurrency that is building an ecosystem for its community. The Veco community are passionate about cryptocurrency and truly believe blockchain technology is going to change the world. 
 
@@ -7,7 +7,7 @@ Veco is an egalitarian Proof-of-Work (PoW) cryptocurrency that uses YescryptR32,
 The Veco team may seek to collaborate with other developers who share the same vision and can add value to the project.
  
  
-# **Veco Official Links**
+## **Veco Official Links**
 
 :small_orange_diamond: Website: https://veco.info
 
@@ -29,7 +29,7 @@ The Veco team may seek to collaborate with other developers who share the same v
  
  
  
-# **Veco Features**
+## **Veco Features**
 
 - [x] CPU Mining – AISC Resistant (can be mined with GPU, but CPU is more efficient)
 
@@ -45,7 +45,7 @@ The Veco team may seek to collaborate with other developers who share the same v
 
 
 
-# **Veco Coin Specification**
+## **Veco Coin Specification**
 
 :small_orange_diamond: Proof-of-Work (PoW) & Masternode
 
@@ -69,25 +69,25 @@ The Veco team may seek to collaborate with other developers who share the same v
 
 
 
-# **Veco Official Exchange**
+## **Veco Official Exchange**
 
 - [ ] Coming Soon!!!
 
 
 
-# **Average Block Reward**
+## **Average Block Reward**
 
 ![alt text](https://i.imgur.com/ee32LHk.png) 
 
 
 
-# **Project Development Transparency Report**
+## **Project Development Transparency Report**
 
 :small_orange_diamond: https://docs.google.com/spreadsheets/d/1jSScDVPmWM0wXc4d7woPnIoZbG7VERGaI9-jmsCQcA8/edit#gid=0
 
 
 
-# **Donations**
+## **Donations**
 
 If you'd like to support the development of Veco, please send us any amount of cryptocurrency using the following addresses:
 
