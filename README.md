@@ -1,6 +1,6 @@
 ## **About Veco**
 
-**VECO** is a new innovative cryptocurrency that is building an ecosystem for its community. The Veco community are passionate about cryptocurrency and truly believe blockchain technology is going to change the world. 
+**VECO** is a new   innovative cryptocurrency that is building an ecosystem for its community. The Veco community are passionate about cryptocurrency and truly believe blockchain technology is going to change the world. 
 
 Veco is an egalitarian Proof-of-Work (PoW) cryptocurrency that uses YescryptR32, an ASIC resistant algorithm which enables people to mine coins without significant hardware investment. Veco can also be mined with GPUs, but CPU mining is more efficient. Veco will start off as a hybrid of PoW and masternodes, and will gradually move towards operating exclusively on masternodes to create a decentralised network which does not rely on any central body control. 
 
