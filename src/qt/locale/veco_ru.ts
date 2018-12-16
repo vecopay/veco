@@ -2723,11 +2723,11 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>InstantSend</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 puffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 puffs in fee,&lt;br /&gt;while "at least" pays 1000 puffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 veffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 veffs in fee,&lt;br /&gt;while "at least" pays 1000 veffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation>Если ручная комиссия  установлена в 1000 duff, а транзакция по размеру только 250 байт, то плата "за килобайт" составит лишь 250 duff,&lt;br&gt;в то время как "минимум" будет равна 1000 duff. Для транзакций больше килобайта в любом случае идет расчет "за килобайт".</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 puffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 puffs in fee,&lt;br /&gt;while "total at least" pays 1000 puffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 veffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 veffs in fee,&lt;br /&gt;while "total at least" pays 1000 veffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation>Если ручная комиссия  установлена в 1000 duff, а транзакция по размеру только 250 байт, то плата "за килобайт" составит лишь 250 duff,&lt;br&gt;в то время как "итого минимум" будет равна 1000 duff. Для тразакций больше килобайта в любом случае идет расчет "за килобайт".</translation>
     </message>
     <message>

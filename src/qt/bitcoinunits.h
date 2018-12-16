@@ -61,7 +61,7 @@ public:
         VECO,
         mVECO,
         uVECO,
-        puffs
+        veffs
     };
 
     enum SeparatorStyle

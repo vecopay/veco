@@ -167,13 +167,13 @@ public:
 
     CAmount GetDustThreshold(const CFeeRate &minRelayTxFee) const
     {
-        // "Dust" is defined in terms of CTransaction::minRelayTxFee, which has units puffs-per-kilobyte.
+        // "Dust" is defined in terms of CTransaction::minRelayTxFee, which has units veffs-per-kilobyte.
         // If you'd pay more than 1/3 in fees to spend something, then we consider it dust.
         // A typical spendable txout is 34 bytes big, and will need a CTxIn of at least 148 bytes to spend
-        // i.e. total is 148 + 32 = 182 bytes. Default -minrelaytxfee is 10000 puffs per kB
-        // and that means that fee per spendable txout is 182 * 10000 / 1000 = 1820 puffs.
-        // So dust is a spendable txout less than 546 * minRelayTxFee / 1000 (in puffs)
-        // i.e. 1820 * 3 = 5460 puffs with default -minrelaytxfee = minRelayTxFee = 10000 puffs per kB.
+        // i.e. total is 148 + 32 = 182 bytes. Default -minrelaytxfee is 10000 veffs per kB
+        // and that means that fee per spendable txout is 182 * 10000 / 1000 = 1820 veffs.
+        // So dust is a spendable txout less than 546 * minRelayTxFee / 1000 (in veffs)
+        // i.e. 1820 * 3 = 5460 veffs with default -minrelaytxfee = minRelayTxFee = 10000 veffs per kB.
         if (scriptPubKey.IsUnspendable())
             return 0;
 

@@ -23,7 +23,7 @@ QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
     unitlist.append(VECO);
     unitlist.append(mVECO);
     unitlist.append(uVECO);
-    unitlist.append(puffs);
+    unitlist.append(veffs);
     return unitlist;
 }
 
@@ -34,7 +34,7 @@ bool BitcoinUnits::valid(int unit)
     case VECO:
     case mVECO:
     case uVECO:
-    case puffs:
+    case veffs:
         return true;
     default:
         return false;
@@ -50,7 +50,7 @@ QString BitcoinUnits::name(int unit)
             case VECO: return QString("VECO");
             case mVECO: return QString("mVECO");
             case uVECO: return QString::fromUtf8("μVECO");
-            case puffs: return QString("puffs");
+            case veffs: return QString("veffs");
             default: return QString("???");
         }
     }
@@ -61,7 +61,7 @@ QString BitcoinUnits::name(int unit)
             case VECO: return QString("tVECO");
             case mVECO: return QString("mtVECO");
             case uVECO: return QString::fromUtf8("μtVECO");
-            case puffs: return QString("tpuffs");
+            case veffs: return QString("tveffs");
             default: return QString("???");
         }
     }
@@ -76,7 +76,7 @@ QString BitcoinUnits::description(int unit)
             case VECO: return QString("Veco");
             case mVECO: return QString("Milli-Veco (1 / 1" THIN_SP_UTF8 "000)");
             case uVECO: return QString("Micro-Veco (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case puffs: return QString("Ten Nano-Veco (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case veffs: return QString("Ten Nano-Veco (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -87,7 +87,7 @@ QString BitcoinUnits::description(int unit)
             case VECO: return QString("TestVecos");
             case mVECO: return QString("Milli-TestVeco (1 / 1" THIN_SP_UTF8 "000)");
             case uVECO: return QString("Micro-TestVeco (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case puffs: return QString("Ten Nano-TestVeco (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case veffs: return QString("Ten Nano-TestVeco (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -100,7 +100,7 @@ qint64 BitcoinUnits::factor(int unit)
     case VECO:  return 100000000;
     case mVECO: return 100000;
     case uVECO: return 100;
-    case puffs: return 1;
+    case veffs: return 1;
     default:   return 100000000;
     }
 }
@@ -112,7 +112,7 @@ int BitcoinUnits::decimals(int unit)
     case VECO: return 8;
     case mVECO: return 5;
     case uVECO: return 2;
-    case puffs: return 0;
+    case veffs: return 0;
     default: return 0;
     }
 }

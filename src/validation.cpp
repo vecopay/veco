@@ -92,7 +92,7 @@ std::atomic<bool> fDIP0001ActiveAtTip{false};
 
 uint256 hashAssumeValid;
 
-/** Fees smaller than this (in puffs) are considered zero fee (for relaying, mining and transaction creation) */
+/** Fees smaller than this (in veffs) are considered zero fee (for relaying, mining and transaction creation) */
 CFeeRate minRelayTxFee = CFeeRate(DEFAULT_MIN_RELAY_TX_FEE);
 
 CTxMemPool mempool(::minRelayTxFee);
