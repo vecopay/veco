@@ -71,7 +71,7 @@ public:
         consensus.BIP34Hash = uint256S("0x000003fd1dff397d1be86183efd9e13f0316b5f5a3082bac91975a421bc43021");
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
         consensus.nPowTargetTimespan = 86400; // Veco: 1 day
-        consensus.nPowTargetSpacing = 120; // Veco: 2.0 minutes
+        consensus.nPowTargetSpacing = 110; // Veco: 2.0 minutes
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nPowKGWHeight = 0;
