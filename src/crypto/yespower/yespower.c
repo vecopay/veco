@@ -1,6 +1,5 @@
 /*-
- * Copyright 2009 Colin Percival
- * Copyright 2013-2018 Alexander Peslyak
+ * Copyright 2018 Cryply team
  * Copyright 2018 Veco Core Developers
  * All rights reserved.
  *
@@ -24,6 +23,9 @@
  * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
+ *
+ * This file was originally written by Cryply team as part of the Cryply
+ * coin.
  */
 #include "yespower.h"
 #include "sysendian.h"
