@@ -35,8 +35,8 @@
 
 // Uncomment the following line to enable debugging messages
 // or enable on a per file basis prior to inclusion of util.h
-//#define ENABLE_VECO_DEBUG
-#ifdef ENABLE_VECO_DEBUG
+//#define ENABLE_SWAMP_DEBUG
+#ifdef ENABLE_SWAMP_DEBUG
 #define DBG( x ) x
 #else
 #define DBG( x ) 

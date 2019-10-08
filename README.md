@@ -1,6 +1,6 @@
 ## **About Veco**
 
-**VECO** is a new innovative cryptocurrency that is building an ecosystem for its community. The Veco community are passionate about cryptocurrency and truly believe blockchain technology is going to change the world. 
+**SWAMP** is a new innovative cryptocurrency that is building an ecosystem for its community. The Veco community are passionate about cryptocurrency and truly believe blockchain technology is going to change the world. 
 
 Veco is an egalitarian Proof-of-Work (PoW) cryptocurrency that uses YesPoWer 1.0 cpu only algorithm. Veco will start off as a hybrid of PoW and masternodes, and will gradually move towards operating exclusively on masternodes to create a decentralised network which does not rely on any central body control. 
 
@@ -59,7 +59,7 @@ The Veco team may seek to collaborate with other developers who share the same v
 
 :small_orange_diamond: RPC Port: 26920
 
-:small_orange_diamond: Masternode Collateral: 1,000 VECO
+:small_orange_diamond: Masternode Collateral: 1,000 SWAMP
 
 :small_orange_diamond: Maximum Supply: 40,000,000
 
@@ -67,7 +67,7 @@ The Veco team may seek to collaborate with other developers who share the same v
 
 ## **Veco Official Exchange**
 
-- [x] Crex24 - https://crex24.com/exchange/VECO-BTC
+- [x] Crex24 - https://crex24.com/exchange/SWAMP-BTC
 
 
 

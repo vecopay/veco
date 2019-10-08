@@ -20,9 +20,9 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(VECO);
-    unitlist.append(mVECO);
-    unitlist.append(uVECO);
+    unitlist.append(SWAMP);
+    unitlist.append(mSWAMP);
+    unitlist.append(uSWAMP);
     unitlist.append(veffs);
     return unitlist;
 }
@@ -31,9 +31,9 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case VECO:
-    case mVECO:
-    case uVECO:
+    case SWAMP:
+    case mSWAMP:
+    case uSWAMP:
     case veffs:
         return true;
     default:
@@ -47,9 +47,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case VECO: return QString("VECO");
-            case mVECO: return QString("mVECO");
-            case uVECO: return QString::fromUtf8("μVECO");
+            case SWAMP: return QString("SWAMP");
+            case mSWAMP: return QString("mSWAMP");
+            case uSWAMP: return QString::fromUtf8("μSWAMP");
             case veffs: return QString("veffs");
             default: return QString("???");
         }
@@ -58,9 +58,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case VECO: return QString("tVECO");
-            case mVECO: return QString("mtVECO");
-            case uVECO: return QString::fromUtf8("μtVECO");
+            case SWAMP: return QString("tSWAMP");
+            case mSWAMP: return QString("mtSWAMP");
+            case uSWAMP: return QString::fromUtf8("μtSWAMP");
             case veffs: return QString("tveffs");
             default: return QString("???");
         }
@@ -73,9 +73,9 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case VECO: return QString("Veco");
-            case mVECO: return QString("Milli-Veco (1 / 1" THIN_SP_UTF8 "000)");
-            case uVECO: return QString("Micro-Veco (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case SWAMP: return QString("Veco");
+            case mSWAMP: return QString("Milli-Veco (1 / 1" THIN_SP_UTF8 "000)");
+            case uSWAMP: return QString("Micro-Veco (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case veffs: return QString("Ten Nano-Veco (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
@@ -84,9 +84,9 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case VECO: return QString("TestVecos");
-            case mVECO: return QString("Milli-TestVeco (1 / 1" THIN_SP_UTF8 "000)");
-            case uVECO: return QString("Micro-TestVeco (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case SWAMP: return QString("TestVecos");
+            case mSWAMP: return QString("Milli-TestVeco (1 / 1" THIN_SP_UTF8 "000)");
+            case uSWAMP: return QString("Micro-TestVeco (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case veffs: return QString("Ten Nano-TestVeco (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
@@ -97,9 +97,9 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case VECO:  return 100000000;
-    case mVECO: return 100000;
-    case uVECO: return 100;
+    case SWAMP:  return 100000000;
+    case mSWAMP: return 100000;
+    case uSWAMP: return 100;
     case veffs: return 1;
     default:   return 100000000;
     }
@@ -109,9 +109,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case VECO: return 8;
-    case mVECO: return 5;
-    case uVECO: return 2;
+    case SWAMP: return 8;
+    case mSWAMP: return 5;
+    case uSWAMP: return 2;
     case veffs: return 0;
     default: return 0;
     }

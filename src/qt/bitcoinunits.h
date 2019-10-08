@@ -58,9 +58,9 @@ public:
      */
     enum Unit
     {
-        VECO,
-        mVECO,
-        uVECO,
+        SWAMP,
+        mSWAMP,
+        uSWAMP,
         veffs
     };
 

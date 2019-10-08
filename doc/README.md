@@ -26,7 +26,7 @@ Drag Veco-Qt to your applications folder, and then run Veco-Qt.
 
 * See the [Veco documentation](https://github.com/vecodev-the-man/veco/tree/master/doc)
 for help and more information.
-* Ask for help on [VECO Discord channel](https://discord.gg/6vGNAh5).
+* Ask for help on [SWAMP Discord channel](https://discord.gg/6vGNAh5).
 * Ask for help on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=3146751) forums.
 
 Building
@@ -58,7 +58,7 @@ The Veco Core repo's [root README](/README.md) contains relevant information on 
 
 ### Resources
 * Discuss on the [BitcointalkTalk](https://bitcointalk.org/index.php?topic=3146751) forums.
-* Discuss on [VECO Discord channel](https://discord.gg/6vGNAh5).
+* Discuss on [SWAMP Discord channel](https://discord.gg/6vGNAh5).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

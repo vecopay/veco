@@ -104,7 +104,7 @@ use old versions of Upstart and do not supply the start-stop-daemon utility.
 Copy vecod.init to /etc/init.d/vecod. Test by running `service vecod start`.
 
 Using this script, you can adjust the path and flags to the vecod program by
-setting the VECOD and FLAGS environment variables in the file
+setting the SWAMPD and FLAGS environment variables in the file
 /etc/sysconfig/vecod. You can also use the DAEMONOPTS environment variable here.
 
 4e) Mac OS X

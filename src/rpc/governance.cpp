@@ -3,7 +3,7 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-//#define ENABLE_VECO_DEBUG
+//#define ENABLE_SWAMP_DEBUG
 
 #include "activemasternode.h"
 #include "governance.h"

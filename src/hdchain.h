@@ -1,8 +1,8 @@
 // Copyright (c) 2014-2018 The Dash Core developers 
 // Copyright (c) 2018-2018 The Veco Core developers
 // Distributed under the MIT software license, see the accompanying
-#ifndef VECO_HDCHAIN_H
-#define VECO_HDCHAIN_H
+#ifndef SWAMP_HDCHAIN_H
+#define SWAMP_HDCHAIN_H
 
 #include "key.h"
 #include "sync.h"
@@ -150,4 +150,4 @@ public:
     std::string GetKeyPath() const;
 };
 
-#endif // VECO_HDCHAIN_H
+#endif // SWAMP_HDCHAIN_H

@@ -92,7 +92,7 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     }
     
     /* Theme selector */
-    ui->theme->addItem(QString("VECO-light"), QVariant("light"));
+    ui->theme->addItem(QString("SWAMP-light"), QVariant("light"));
         
     /* Language selector */
     QDir translations(":translations");

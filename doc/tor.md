@@ -1,4 +1,4 @@
-TOR SUPPORT IN VECO CORE
+TOR SUPPORT IN SWAMP CORE
 =======================
 
 It is possible to run Veco Core as a Tor hidden service, and connect to such services.

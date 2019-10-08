@@ -21,8 +21,8 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef VECO_BIP39_H
-#define VECO_BIP39_H
+#ifndef SWAMP_BIP39_H
+#define SWAMP_BIP39_H
 
 #include "support/allocators/secure.h"
 

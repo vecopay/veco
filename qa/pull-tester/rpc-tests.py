@@ -62,10 +62,10 @@ for arg in sys.argv[1:]:
 
 #Set env vars
 buildDir = BUILDDIR
-if "VECOD" not in os.environ:
-    os.environ["VECOD"] = buildDir + '/src/vecod' + EXEEXT
-if "VECOCLI" not in os.environ:
-    os.environ["VECOCLI"] = buildDir + '/src/veco-cli' + EXEEXT
+if "SWAMPD" not in os.environ:
+    os.environ["SWAMPD"] = buildDir + '/src/vecod' + EXEEXT
+if "SWAMPCLI" not in os.environ:
+    os.environ["SWAMPCLI"] = buildDir + '/src/veco-cli' + EXEEXT
 
 if EXEEXT == ".exe" and "-win" not in opts:
     # https://github.com/bitcoin/bitcoin/commit/d52802551752140cf41f0d9a225a43e84404d3e9
