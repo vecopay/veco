@@ -123,16 +123,9 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0xde4fe11d6d0c735a192d4e6eed593ad575ccd671ff4ff0d9188e347e067d028d"));
 
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("veco.info", "alpha.veco.info"));
-		vSeeds.push_back(CDNSSeedData("veco.info", "bravo.veco.info"));
-		vSeeds.push_back(CDNSSeedData("veco.info", "charlie.veco.info"));
-		vSeeds.push_back(CDNSSeedData("veco.info", "delta.veco.info"));
-		vSeeds.push_back(CDNSSeedData("veco.info", "echo.veco.info"));
-		vSeeds.push_back(CDNSSeedData("veco.info", "foxtrot.veco.info"));
-		vSeeds.push_back(CDNSSeedData("veco.info", "golf.veco.info"));
-		vSeeds.push_back(CDNSSeedData("veco.info", "hotel.veco.info"));
-		vSeeds.push_back(CDNSSeedData("veco.info", "india.veco.info"));
-		vSeeds.push_back(CDNSSeedData("veco.info", "juliet.veco.info"));
+        //vSeeds.push_back(CDNSSeedData("45.32.217.164", "45.32.217.164"));
+		//vSeeds.push_back(CDNSSeedData("45.32.217.164", "45.32.217.164"));
+
 
         // Veco addresses start with 's'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,73);
@@ -150,10 +143,10 @@ public:
 
         //vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
-        fMiningRequiresPeers = true;
+        fMiningRequiresPeers = false;
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
-        fMineBlocksOnDemand = false;
+        fMineBlocksOnDemand = true;
         fTestnetToBeDeprecatedFieldRPC = false;
 
         nPoolMaxTransactions = 3;
