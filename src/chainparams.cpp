@@ -71,7 +71,7 @@ public:
         consensus.BIP34Hash = uint256S("0x000003fd1dff397d1be86183efd9e13f0316b5f5a3082bac91975a421bc43021");
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
         consensus.nPowTargetTimespan = 86400; // Veco: 1 day
-        consensus.nPowTargetSpacing = 110; // Veco: 2.0 minutes
+        consensus.nPowTargetSpacing = 120; // Swamp: 2.0 minutes
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nPowKGWHeight = 0;
@@ -105,10 +105,11 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0x76; //v
-        pchMessageStart[1] = 0x65; //e
-        pchMessageStart[2] = 0x63; //c
-        pchMessageStart[3] = 0x6F; //o
+        pchMessageStart[0] = 0x73; //s
+        pchMessageStart[1] = 0x77; //w
+        pchMessageStart[2] = 0x61; //a
+        pchMessageStart[3] = 0x6d; //m
+	pchMessageStart[4] = 0x70; //p    
         vAlertPubKey = ParseHex("047738e763b45593b3bc080cfd2ec07ce725d2c39b18e4bccced4ed75856afa15e88399cc894bbe9f10d98dd715081a27d3c45e5e7382f07c4c6bd32a9acda5c7d");
         nDefaultPort = 26919;
         
@@ -133,8 +134,8 @@ public:
 		vSeeds.push_back(CDNSSeedData("veco.info", "india.veco.info"));
 		vSeeds.push_back(CDNSSeedData("veco.info", "juliet.veco.info"));
 
-        // Veco addresses start with 'V'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,70);
+        // Veco addresses start with 's'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,73);
         // Veco script addresses start with '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,20);
         // Veco private keys start with 'X'
@@ -162,14 +163,14 @@ public:
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
             (    0, uint256S("0x000003fd1dff397d1be86183efd9e13f0316b5f5a3082bac91975a421bc43021"))
-            ( 5000, uint256S("0x000000057c6cc33013e5ba9be51141a4050c7006373af87f364149c0fe1029d2"))
-            (10000, uint256S("0x00000022945921fea86927059050ded37ce8d1aece9a9221e10d3bc8339e2d00"))
-            (20000, uint256S("0x0000005802a204b9a1e03be2910c3cba95584d6a762f353473562b262238b435"))
-            (40000, uint256S("0x000001304558b69f7c952a4c8ad020ba3078ab6de3bf073c895171862f3885fd")),
-                1544969061, // * UNIX timestamp of last checkpoint block
-                83263,      // * total number of transactions between genesis and last checkpoint
+            //( 5000, uint256S("0x000000057c6cc33013e5ba9be51141a4050c7006373af87f364149c0fe1029d2"))
+            //(10000, uint256S("0x00000022945921fea86927059050ded37ce8d1aece9a9221e10d3bc8339e2d00"))
+            //(20000, uint256S("0x0000005802a204b9a1e03be2910c3cba95584d6a762f353473562b262238b435"))
+            //(40000, uint256S("0x000001304558b69f7c952a4c8ad020ba3078ab6de3bf073c895171862f3885fd")),
+                1539043200, // * UNIX timestamp of last checkpoint block
+                0,      // * total number of transactions between genesis and last checkpoint
                             //   (the tx=... number in the SetBestChain debug.log lines)
-                500         // * estimated number of transactions per day after checkpoint
+                0         // * estimated number of transactions per day after checkpoint
         };
     }
 };
@@ -232,10 +233,10 @@ public:
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x00000997e30aad936446ab7226cecd21875e867a57aca1a46d17be4316bab391");
 
-        pchMessageStart[0] = 0x76; //v
-        pchMessageStart[1] = 0x65; //e
-        pchMessageStart[2] = 0x63; //c
-        pchMessageStart[3] = 0x74; //testnet
+        pchMessageStart[0] = 0x73; //s
+        pchMessageStart[1] = 0x77; //w
+        pchMessageStart[2] = 0x6d; //m
+	pchMessageStart[3] = 0x70; //p 
         vAlertPubKey = ParseHex("04a6df8bb80ab3113dcae21d2a9ced9b2f48811ce079e44a19a53d0aae223388b79f5dfec3abe9dccfe250edd0caf243168ce4f0965fd8f0857c390c76da1a1db1");
         nDefaultPort = 16919;
         nMaxTipAge = 0x7fffffff; // allow mining on top of old blocks for testnet
@@ -250,15 +251,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         vSeeds.push_back(CDNSSeedData("veco.info", "test01.veco.info"));
-		vSeeds.push_back(CDNSSeedData("veco.info", "test02.veco.info"));
-		vSeeds.push_back(CDNSSeedData("veco.info", "test03.veco.info"));
-		vSeeds.push_back(CDNSSeedData("veco.info", "test04.veco.info"));
-		vSeeds.push_back(CDNSSeedData("veco.info", "test05.veco.info"));
-		vSeeds.push_back(CDNSSeedData("veco.info", "test06.veco.info"));
-		vSeeds.push_back(CDNSSeedData("veco.info", "test07.veco.info"));
-		vSeeds.push_back(CDNSSeedData("veco.info", "test08.veco.info"));
-		vSeeds.push_back(CDNSSeedData("veco.info", "test09.veco.info"));
-		vSeeds.push_back(CDNSSeedData("veco.info", "test10.veco.info"));
+		//vSeeds.push_back(CDNSSeedData("veco.info", "test02.veco.info"));
 
         // Testnet Veco addresses start with 'y'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,140);
