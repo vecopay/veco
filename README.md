@@ -55,7 +55,7 @@ The Swamp team may seek to collaborate with other developers who share the same 
 
 :small_orange_diamond: Mining Maturation Time: 101 blocks
 
-:small_orange_diamond: P2P Port: 26919
+:small_orange_diamond: P2P Port: 33333
 
 :small_orange_diamond: RPC Port: 26920
 
