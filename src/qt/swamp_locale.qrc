@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/swamp_bg.qm</file>
+        <file alias="de">locale/swamp_de.qm</file>
+        <file alias="en">locale/swamp_en.qm</file>
+        <file alias="es">locale/swamp_es.qm</file>
+        <file alias="fi">locale/swamp_fi.qm</file>
+        <file alias="fr">locale/swamp_fr.qm</file>
+        <file alias="it">locale/swamp_it.qm</file>
+        <file alias="ja">locale/swamp_ja.qm</file>
+        <file alias="pl">locale/swamp_pl.qm</file>
+        <file alias="pt">locale/swamp_pt.qm</file>
+        <file alias="ru">locale/swamp_ru.qm</file>
+        <file alias="sk">locale/swamp_sk.qm</file>
+        <file alias="sv">locale/swamp_sv.qm</file>
+        <file alias="vi">locale/swamp_vi.qm</file>
+        <file alias="zh_CN">locale/swamp_zh_CN.qm</file>
+        <file alias="zh_TW">locale/swamp_zh_TW.qm</file>
+    </qresource>
+</RCC>

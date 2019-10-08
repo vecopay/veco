@@ -1,0 +1,6 @@
+usr/local/bin/swamp-qt usr/bin
+share/pixmaps/swamp32.xpm usr/share/pixmaps
+share/pixmaps/swamp16.xpm usr/share/pixmaps
+share/pixmaps/swamp128.png usr/share/pixmaps
+debian/swamp-qt.desktop usr/share/applications
+debian/swamp-qt.protocol usr/share/kde4/services/

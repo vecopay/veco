@@ -1,0 +1,22 @@
+[Unit]
+Description=Swamp's distributed currency daemon
+After=network.target
+
+[Service]
+User=swampcore
+Group=swampcore
+
+Type=forking
+PIDFile=/var/lib/swampd/swampd.pid
+ExecStart=/usr/bin/swampd -daemon -pid=/var/lib/swampd/swampd.pid \
+-conf=/etc/swampcore/swamp.conf -datadir=/var/lib/swampd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

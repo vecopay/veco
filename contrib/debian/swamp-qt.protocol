@@ -1,0 +1,11 @@
+[Protocol]
+exec=swamp-qt '%u'
+protocol=swamp
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
