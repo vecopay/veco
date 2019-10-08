@@ -9,19 +9,19 @@ The Swamp team may seek to collaborate with other developers who share the same 
  
 ## **Swamp Official Links**
 
-:small_orange_diamond: Website: https://vecocoin.io
+:small_orange_diamond: Website: https://swampcoin.io
 
-:small_orange_diamond: Block Explorer: http://explorer.vecocoin.io
+:small_orange_diamond: Block Explorer: http://explorer.swampcoin.io
 
-:small_orange_diamond: Mining Pool: https://pool.vecocoin.io
+:small_orange_diamond: Mining Pool: https://pool.swampcoin.io
 
 :small_orange_diamond: Discord: https://discordapp.com/invite/Z7j9mz6
 
-:small_orange_diamond: Twitter: https://twitter.com/veco_coin
+:small_orange_diamond: Twitter: https://twitter.com/swamp_coin
 
 :small_orange_diamond: Bitcointalk: https://bitcointalk.org/index.php?topic=5047116.0
 
-:small_orange_diamond: Email: veco.coin@gmail.com
+:small_orange_diamond: Email: swamp.coin@gmail.com
 
  
  

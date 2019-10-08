@@ -239,8 +239,8 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("veco.info", "test01.veco.info"));
-		//vSeeds.push_back(CDNSSeedData("veco.info", "test02.veco.info"));
+        vSeeds.push_back(CDNSSeedData("swamp.info", "test01.swamp.info"));
+		//vSeeds.push_back(CDNSSeedData("swamp.info", "test02.swamp.info"));
 
         // Testnet Swamp addresses start with 'y'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,140);

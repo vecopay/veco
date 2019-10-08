@@ -8,7 +8,7 @@
 #include "uint256.h"
 #include "undo.h"
 #include "utilstrencodings.h"
-#include "test/test_veco.h"
+#include "test/test_swamp.h"
 #include "validation.h"
 #include "consensus/validation.h"
 
@@ -146,15 +146,15 @@ BOOST_AUTO_TEST_CASE(coins_cache_simulation_test)
             // Determine whether to test HaveCoin before or after Access* (or both). As these functions
             // can influence each other's behaviour by pulling things into the cache, all combinations
             // are tested.
-            bool test_havecoin_before = (insecure_rand() & 0x3) == 0; // TODO change to InsecureRandBits(2) when backporting Bitcoin #10321
-            bool test_havecoin_after = (insecure_rand() & 0x3) == 0; // TODO change to InsecureRandBits(2) when backporting Bitcoin #10321
+            bool test_haswampin_before = (insecure_rand() & 0x3) == 0; // TODO change to InsecureRandBits(2) when backporting Bitcoin #10321
+            bool test_haswampin_after = (insecure_rand() & 0x3) == 0; // TODO change to InsecureRandBits(2) when backporting Bitcoin #10321
 
-            bool result_havecoin = test_havecoin_before ? stack.back()->HaveCoin(COutPoint(txid, 0)) : false;
+            bool result_haswampin = test_haswampin_before ? stack.back()->HaveCoin(COutPoint(txid, 0)) : false;
             const Coin& entry = (insecure_rand() % 500 == 0) ? AccessByTxid(*stack.back(), txid) : stack.back()->AccessCoin(COutPoint(txid, 0));
             BOOST_CHECK(coin == entry);
-            BOOST_CHECK(!test_havecoin_before || result_havecoin == !entry.IsSpent());
+            BOOST_CHECK(!test_haswampin_before || result_haswampin == !entry.IsSpent());
 
-            if (test_havecoin_after) {
+            if (test_haswampin_after) {
                 bool ret = stack.back()->HaveCoin(COutPoint(txid, 0));
                 BOOST_CHECK(ret == !entry.IsSpent());
             }

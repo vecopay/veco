@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: vecod.service
-Upstart: vecod.conf
-OpenRC:  vecod.openrc
-         vecod.openrcconf
-CentOS:  vecod.init
-OS X:    org.veco.vecod.plist
+SystemD: swampd.service
+Upstart: swampd.conf
+OpenRC:  swampd.openrc
+         swampd.openrcconf
+CentOS:  swampd.init
+OS X:    org.swamp.swampd.plist
 
 have been made available to assist packagers in creating node packages here.
 

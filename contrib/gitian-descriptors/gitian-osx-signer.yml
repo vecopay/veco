@@ -1,5 +1,5 @@
 ---
-name: "veco-dmg-signer"
+name: "swamp-dmg-signer"
 suites:
 - "trusty"
 architectures:
@@ -11,7 +11,7 @@ remotes:
 - "url": "https://github.com/SwampOfficial/Swamp-detached-sigs.git"
   "dir": "signature"
 files:
-- "veco-osx-unsigned.tar.gz"
+- "swamp-osx-unsigned.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -28,8 +28,8 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=veco-osx-unsigned.tar.gz
-  SIGNED=veco-osx-signed.dmg
+  UNSIGNED=swamp-osx-unsigned.tar.gz
+  SIGNED=swamp-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   ./detached-sig-apply.sh ${UNSIGNED} signature/osx

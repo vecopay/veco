@@ -4,7 +4,7 @@
 
 #include "hash.h"
 #include "utilstrencodings.h"
-#include "test/test_veco.h"
+#include "test/test_swamp.h"
 
 #include <vector>
 

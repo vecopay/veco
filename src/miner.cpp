@@ -405,7 +405,7 @@ void static BitcoinMiner(const CChainParams& chainparams, CConnman& connman)
 {
     LogPrintf("SwampMiner -- started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("veco-miner");
+    RenameThread("swamp-miner");
 
     unsigned int nExtraNonce = 0;
 

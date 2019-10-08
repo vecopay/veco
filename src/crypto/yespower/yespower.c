@@ -33,16 +33,16 @@
 #include "sha256.h"
 #include "yespower-opt.c"
 
-static const yespower_params_t veco_yespower_0_5 = {YESPOWER_0_5, 4096, 32, "WaviBanana", 10};
+static const yespower_params_t swamp_yespower_0_5 = {YESPOWER_0_5, 4096, 32, "WaviBanana", 10};
 
-static const yespower_params_t veco_yespower_1_0 = {YESPOWER_1_0, 2048, 32, NULL, 0};
+static const yespower_params_t swamp_yespower_1_0 = {YESPOWER_1_0, 2048, 32, NULL, 0};
 
 int yespower_hash(const char *input, char *output)
 {
     uint32_t time = le32dec(&input[68]);
     if (time > 1546539305) {
-        return yespower_tls(input, 80, &veco_yespower_1_0, (yespower_binary_t *) output);
+        return yespower_tls(input, 80, &swamp_yespower_1_0, (yespower_binary_t *) output);
     } else {
-        return yespower_tls(input, 80 ,&veco_yespower_0_5, (yespower_binary_t *) output);
+        return yespower_tls(input, 80 ,&swamp_yespower_0_5, (yespower_binary_t *) output);
     }
 }

@@ -42,9 +42,9 @@ SendCoinsEntry::SendCoinsEntry(const PlatformStyle *platformStyle, QWidget *pare
     ui->deleteButton_is->setIcon(QIcon(":/icons/" + theme + "/remove"));
     ui->deleteButton_s->setIcon(QIcon(":/icons/" + theme + "/remove"));
       
-    // normal veco address field
+    // normal swamp address field
     GUIUtil::setupAddressWidget(ui->payTo, this);
-    // just a label for displaying veco address(es)
+    // just a label for displaying swamp address(es)
     ui->payTo_is->setFont(GUIUtil::fixedPitchFont());
 
     // Connect signals

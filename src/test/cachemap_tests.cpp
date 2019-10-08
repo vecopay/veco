@@ -3,7 +3,7 @@
 
 #include "cachemap.h"
 
-#include "test/test_veco.h"
+#include "test/test_swamp.h"
 
 #include <boost/test/unit_test.hpp>
 

@@ -49,8 +49,8 @@ EXTRA_LIBRARIES += libbitcoin_zmq.a
 endif
 
 if BUILD_BITCOIN_LIBS
-lib_LTLIBRARIES = libvecoconsensus.la
-LIBBITCOIN_CONSENSUS=libvecoconsensus.la
+lib_LTLIBRARIES = libswampconsensus.la
+LIBBITCOIN_CONSENSUS=libswampconsensus.la
 else
 LIBBITCOIN_CONSENSUS=
 endif
@@ -60,15 +60,15 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += vecod
+  bin_PROGRAMS += swampd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += veco-cli veco-tx
+  bin_PROGRAMS += swamp-cli swamp-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
-# veco core #
+# swamp core #
 BITCOIN_CORE_H = \
   addrdb.h \
   activemasternode.h \
@@ -208,7 +208,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between vecod and veco-qt
+# server: shared between swampd and swamp-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -282,7 +282,7 @@ libbitcoin_zmq_a_SOURCES = \
 endif
 
 
-# wallet: shared between vecod and veco-qt, but only linked
+# wallet: shared between swampd and swamp-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -357,7 +357,7 @@ crypto_libbitcoin_crypto_a_SOURCES += \
   crypto/sph_skein.h \
   crypto/sph_types.h
 
-# common: shared between vecod, and veco-qt and non-server tools
+# common: shared between swampd, and swamp-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -417,7 +417,7 @@ if GLIBC_BACK_COMPAT
 libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 endif
 
-# cli: shared between veco-cli and veco-qt
+# cli: shared between swamp-cli and swamp-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -428,16 +428,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-vecod_SOURCES = vecod.cpp
-vecod_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-vecod_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-vecod_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+swampd_SOURCES = swampd.cpp
+swampd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+swampd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+swampd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-vecod_SOURCES += vecod-res.rc
+swampd_SOURCES += swampd-res.rc
 endif
 
-vecod_LDADD = \
+swampd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -448,56 +448,56 @@ vecod_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-vecod_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+swampd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-vecod_LDADD += libbitcoin_wallet.a
+swampd_LDADD += libbitcoin_wallet.a
 endif
 
-vecod_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+swampd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
 
-# veco-cli binary #
-veco_cli_SOURCES = veco-cli.cpp
-veco_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-veco_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-veco_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# swamp-cli binary #
+swamp_cli_SOURCES = swamp-cli.cpp
+swamp_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+swamp_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+swamp_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-veco_cli_SOURCES += veco-cli-res.rc
+swamp_cli_SOURCES += swamp-cli-res.rc
 endif
 
-veco_cli_LDADD = \
+swamp_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL)
-veco_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+swamp_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# veco-tx binary #
-veco_tx_SOURCES = veco-tx.cpp
-veco_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-veco_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-veco_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# swamp-tx binary #
+swamp_tx_SOURCES = swamp-tx.cpp
+swamp_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+swamp_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+swamp_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-veco_tx_SOURCES += veco-tx-res.rc
+swamp_tx_SOURCES += swamp-tx-res.rc
 endif
 
-veco_tx_LDADD = \
+swamp_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-veco_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+swamp_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
-# vecoconsensus library #
+# swampconsensus library #
 if BUILD_BITCOIN_LIBS
-include_HEADERS = script/vecoconsensus.h
-libvecoconsensus_la_SOURCES = \
+include_HEADERS = script/swampconsensus.h
+libswampconsensus_la_SOURCES = \
   crypto/hmac_sha512.cpp \
   crypto/ripemd160.cpp \
   crypto/sha1.cpp \
@@ -506,20 +506,20 @@ libvecoconsensus_la_SOURCES = \
   hash.cpp \
   primitives/transaction.cpp \
   pubkey.cpp \
-  script/vecoconsensus.cpp \
+  script/swampconsensus.cpp \
   script/interpreter.cpp \
   script/script.cpp \
   uint256.cpp \
   utilstrencodings.cpp
 
 if GLIBC_BACK_COMPAT
-  libvecoconsensus_la_SOURCES += compat/glibc_compat.cpp
+  libswampconsensus_la_SOURCES += compat/glibc_compat.cpp
 endif
 
-libvecoconsensus_la_LDFLAGS = $(AM_LDFLAGS) -no-undefined $(RELDFLAGS)
-libvecoconsensus_la_LIBADD = $(LIBSECP256K1)
-libvecoconsensus_la_CPPFLAGS = $(AM_CPPFLAGS) -I$(builddir)/obj -I$(srcdir)/secp256k1/include -DBUILD_BITCOIN_INTERNAL
-libvecoconsensus_la_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libswampconsensus_la_LDFLAGS = $(AM_LDFLAGS) -no-undefined $(RELDFLAGS)
+libswampconsensus_la_LIBADD = $(LIBSECP256K1)
+libswampconsensus_la_CPPFLAGS = $(AM_CPPFLAGS) -I$(builddir)/obj -I$(srcdir)/secp256k1/include -DBUILD_BITCOIN_INTERNAL
+libswampconsensus_la_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 
 endif
 #

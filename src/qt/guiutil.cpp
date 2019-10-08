@@ -135,8 +135,8 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no veco: URI
-    if(!uri.isValid() || uri.scheme() != QString("veco"))
+    // return if URI is not valid or is no swamp: URI
+    if(!uri.isValid() || uri.scheme() != QString("swamp"))
         return false;
 
     SendCoinsRecipient rv;
@@ -205,13 +205,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert veco:// to veco:
+    // Convert swamp:// to swamp:
     //
-    //    Cannot handle this later, because veco:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because swamp:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("veco://", Qt::CaseInsensitive))
+    if(uri.startsWith("swamp://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 7, "veco:");
+        uri.replace(0, 7, "swamp:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -219,7 +219,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("veco:%1").arg(info.address);
+    QString ret = QString("swamp:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
@@ -425,7 +425,7 @@ void openConfigfile()
 {
     boost::filesystem::path pathConfig = GetConfigFile();
 
-    /* Open veco.conf with the associated application */
+    /* Open swamp.conf with the associated application */
     if (boost::filesystem::exists(pathConfig))
         QDesktopServices::openUrl(QUrl::fromLocalFile(boostPathToQString(pathConfig)));
 }
@@ -735,8 +735,8 @@ boost::filesystem::path static GetAutostartFilePath()
 {
     std::string chain = ChainNameFromCommandLine();
     if (chain == CBaseChainParams::MAIN)
-        return GetAutostartDir() / "vecocore.desktop";
-    return GetAutostartDir() / strprintf("vecocore-%s.lnk", chain);
+        return GetAutostartDir() / "swampcore.desktop";
+    return GetAutostartDir() / strprintf("swampcore-%s.lnk", chain);
 }
 
 bool GetStartOnSystemStartup()
@@ -775,7 +775,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         if (!optionFile.good())
             return false;
         std::string chain = ChainNameFromCommandLine();
-        // Write a vecocore.desktop file to the autostart directory:
+        // Write a swampcore.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         if (chain == CBaseChainParams::MAIN)

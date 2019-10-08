@@ -1,8 +1,8 @@
-Source: veco
+Source: swamp
 Section: utils
 Priority: optional
-Maintainer: Holger Schinzel <holger@veco.org>
-Uploaders: Holger Schinzel <holger@veco.org>
+Maintainer: Holger Schinzel <holger@swamp.org>
+Uploaders: Holger Schinzel <holger@swamp.org>
 Build-Depends: debhelper,
  devscripts,
  automake,
@@ -24,11 +24,11 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler,
  python
 Standards-Version: 3.9.2
-Homepage: https://vecodev-the-man.github.io/veco/
-Vcs-Git: git://github.com/vecodev-the-man/veco.git
-Vcs-Browser: https://github.com/vecodev-the-man/veco
+Homepage: https://swampdev-the-man.github.io/swamp/
+Vcs-Git: git://github.com/swampdev-the-man/swamp.git
+Vcs-Browser: https://github.com/swampdev-the-man/swamp
 
-Package: vecod
+Package: swampd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
@@ -38,10 +38,10 @@ Description: peer-to-peer network based digital currency - daemon
  and issuing money are carried out collectively by the network. Swamp Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides the daemon, vecod, and the CLI tool
- veco-cli to interact with the daemon.
+ This package provides the daemon, swampd, and the CLI tool
+ swamp-cli to interact with the daemon.
 
-Package: veco-qt
+Package: swamp-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
@@ -53,7 +53,7 @@ Description: peer-to-peer network based digital currency - Qt GUI
  .
  This package provides Swamp-Qt, a GUI for Swamp based on Qt.
 
-Package: veco-tx
+Package: swamp-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
@@ -63,6 +63,6 @@ Description: peer-to-peer digital currency - standalone transaction tool
  and issuing money are carried out collectively by the network. Swamp Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides veco-tx, a command-line transaction creation
- tool which can be used without a veco daemon.  Some means of
+ This package provides swamp-tx, a command-line transaction creation
+ tool which can be used without a swamp daemon.  Some means of
  exchanging minimal transaction data with peers is still required.

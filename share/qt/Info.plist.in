@@ -38,7 +38,7 @@
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.veco.Swamp-Qt</string>
+  <string>org.swamp.Swamp-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,10 +46,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.veco.SwampPayment</string>
+      <string>org.swamp.SwampPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>veco</string>
+        <string>swamp</string>
       </array>
     </dict>
   </array>
@@ -58,7 +58,7 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>org.veco.paymentrequest</string>
+      <string>org.swamp.paymentrequest</string>
       <key>UTTypeDescription</key>
       <string>Swamp payment request</string>
       <key>UTTypeConformsTo</key>
@@ -68,10 +68,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-veco-payment-request</string>
+        <string>application/x-swamp-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>vecopaymentrequest</string>
+          <string>swamppaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -84,7 +84,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>org.veco.paymentrequest</string>
+        <string>org.swamp.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

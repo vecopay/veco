@@ -3,7 +3,7 @@ Swamp Core version 0.12.2.4
 
 Release is now available from:
 
-  <https://github.com/vecodev-the-man/veco/releases>
+  <https://github.com/swampdev-the-man/swamp/releases>
 
 This is a new version release, bringing various bugfixes and other
 improvements.
@@ -18,7 +18,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
 installer (on Windows) or just copy over /Applications/Swamp-Qt (on Mac) or
-vecod/veco-qt (on Linux).
+swampd/swamp-qt (on Linux).
 
 
 Notable changes

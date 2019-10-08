@@ -446,7 +446,7 @@ void ThreadCheckPrivateSend(CConnman& connman)
     fOneThread = true;
 
     // Make this thread recognisable as the PrivateSend thread
-    RenameThread("veco-ps");
+    RenameThread("swamp-ps");
 
     unsigned int nTick = 0;
 

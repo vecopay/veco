@@ -1,7 +1,7 @@
 # Linearize
 Construct a linear, no-fork, best version of the blockchain.
 
-## Step 0: Install veco_hash
+## Step 0: Install swamp_hash
 
 https://github.com/SwampOfficial/Swamp_hash
 

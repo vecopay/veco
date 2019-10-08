@@ -880,7 +880,7 @@ void ThreadCheckPrivateSendServer(CConnman& connman)
     fOneThread = true;
 
     // Make this thread recognisable as the PrivateSend thread
-    RenameThread("veco-ps-server");
+    RenameThread("swamp-ps-server");
 
     unsigned int nTick = 0;
 

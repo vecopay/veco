@@ -25,6 +25,6 @@ https://github.com/SwampOfficial/Swamp/releases
 
 Always verify the signatures and checksums.
 
-See doc/build-*.md for instructions on building vecod,
+See doc/build-*.md for instructions on building swampd,
 the intended-for-services, no-graphical-interface,
 reference implementation of Swamp.

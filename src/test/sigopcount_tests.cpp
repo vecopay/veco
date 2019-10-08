@@ -7,7 +7,7 @@
 #include "script/script.h"
 #include "script/standard.h"
 #include "uint256.h"
-#include "test/test_veco.h"
+#include "test/test_swamp.h"
 
 #include <vector>
 

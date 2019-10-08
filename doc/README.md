@@ -1,7 +1,7 @@
 Swamp Core 1.0.0.0
 =====================
 
-This is the official reference wallet for Swamp digital currency and comprises the backbone of the Swamp peer-to-peer network. You can [download Swamp Core](https://github.com/vecodev-the-man/veco/releases) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Swamp digital currency and comprises the backbone of the Swamp peer-to-peer network. You can [download Swamp Core](https://github.com/swampdev-the-man/swamp/releases) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
@@ -11,12 +11,12 @@ The following are some helpful notes on how to run Swamp on your native platform
 
 Unpack the files into a directory and run:
 
-- `bin/veco-qt` (GUI) or
-- `bin/vecod` (headless)
+- `bin/swamp-qt` (GUI) or
+- `bin/swampd` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run veco-qt.exe.
+Unpack the files into a directory, and then run swamp-qt.exe.
 
 ### OS X
 
@@ -24,7 +24,7 @@ Drag Swamp-Qt to your applications folder, and then run Swamp-Qt.
 
 ### Need Help?
 
-* See the [Swamp documentation](https://github.com/vecodev-the-man/veco/tree/master/doc)
+* See the [Swamp documentation](https://github.com/swampdev-the-man/swamp/tree/master/doc)
 for help and more information.
 * Ask for help on [SWAMP Discord channel](https://discord.gg/6vGNAh5).
 * Ask for help on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=3146751) forums.

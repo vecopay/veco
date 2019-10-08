@@ -13,7 +13,7 @@
 #include "serialize.h"
 #include "util.h"
 
-#include "test/test_veco.h"
+#include "test/test_swamp.h"
 
 #include <stdint.h>
 

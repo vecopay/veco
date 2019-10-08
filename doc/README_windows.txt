@@ -11,13 +11,13 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 -----
-Unpack the files into a directory and run veco-qt.exe.
+Unpack the files into a directory and run swamp-qt.exe.
 
 Swamp Core is the original Swamp client and it builds the backbone of the network.
 However, it downloads and stores the entire history of Swamp transactions;
 depending on the speed of your computer and network connection, the synchronization
 process can take anywhere from a few hours to a day or more.
 
-See the veco wiki at:
-  https://vecopay.atlassian.net/wiki/
+See the swamp wiki at:
+  https://swamppay.atlassian.net/wiki/
 for more help and information.

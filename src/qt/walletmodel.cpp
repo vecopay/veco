@@ -264,7 +264,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareTransaction(WalletModelTransact
             total += subtotal;
         }
         else
-        {   // User-entered veco address / amount:
+        {   // User-entered swamp address / amount:
             if(!validateAddress(rcp.address))
             {
                 return InvalidAddress;
@@ -375,7 +375,7 @@ WalletModel::SendCoinsReturn WalletModel::sendCoins(WalletModelTransaction &tran
                 rcp.paymentRequest.SerializeToString(&value);
                 newTx->vOrderForm.push_back(make_pair(key, value));
             }
-            else if (!rcp.message.isEmpty()) // Message from normal veco:URI (veco:XyZ...?message=example)
+            else if (!rcp.message.isEmpty()) // Message from normal swamp:URI (swamp:XyZ...?message=example)
             {
                 newTx->vOrderForm.push_back(make_pair("Message", rcp.message.toStdString()));
             }

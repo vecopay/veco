@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between veco-cli and vecod)
+ * CBaseChainParams defines the base parameters (shared between swamp-cli and swampd)
  * of a given instance of the Swamp system.
  */
 class CBaseChainParams

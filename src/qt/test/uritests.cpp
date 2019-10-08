@@ -13,58 +13,58 @@ void URITests::uriTests()
 {
     SendCoinsRecipient rv;
     QUrl uri;
-    uri.setUrl(QString("veco:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?req-dontexist="));
+    uri.setUrl(QString("swamp:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?req-dontexist="));
     QVERIFY(!GUIUtil::parseBitcoinURI(uri, &rv));
 
-    uri.setUrl(QString("veco:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?dontexist="));
+    uri.setUrl(QString("swamp:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?dontexist="));
     QVERIFY(GUIUtil::parseBitcoinURI(uri, &rv));
     QVERIFY(rv.address == QString("VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD"));
     QVERIFY(rv.label == QString());
     QVERIFY(rv.amount == 0);
 
-    uri.setUrl(QString("veco:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?label=Some Example Address"));
+    uri.setUrl(QString("swamp:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?label=Some Example Address"));
     QVERIFY(GUIUtil::parseBitcoinURI(uri, &rv));
     QVERIFY(rv.address == QString("VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD"));
     QVERIFY(rv.label == QString("Some Example Address"));
     QVERIFY(rv.amount == 0);
 
-    uri.setUrl(QString("veco:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?amount=0.001"));
+    uri.setUrl(QString("swamp:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?amount=0.001"));
     QVERIFY(GUIUtil::parseBitcoinURI(uri, &rv));
     QVERIFY(rv.address == QString("VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD"));
     QVERIFY(rv.label == QString());
     QVERIFY(rv.amount == 100000);
 
-    uri.setUrl(QString("veco:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?amount=1.001"));
+    uri.setUrl(QString("swamp:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?amount=1.001"));
     QVERIFY(GUIUtil::parseBitcoinURI(uri, &rv));
     QVERIFY(rv.address == QString("VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD"));
     QVERIFY(rv.label == QString());
     QVERIFY(rv.amount == 100100000);
 
-    uri.setUrl(QString("veco:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?amount=100&label=Some Example"));
+    uri.setUrl(QString("swamp:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?amount=100&label=Some Example"));
     QVERIFY(GUIUtil::parseBitcoinURI(uri, &rv));
     QVERIFY(rv.address == QString("VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD"));
     QVERIFY(rv.amount == 10000000000LL);
     QVERIFY(rv.label == QString("Some Example"));
 
-    uri.setUrl(QString("veco:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?message=Some Example Address"));
+    uri.setUrl(QString("swamp:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?message=Some Example Address"));
     QVERIFY(GUIUtil::parseBitcoinURI(uri, &rv));
     QVERIFY(rv.address == QString("VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD"));
     QVERIFY(rv.label == QString());
 
-    QVERIFY(GUIUtil::parseBitcoinURI("veco://VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?message=Some Example Address", &rv));
+    QVERIFY(GUIUtil::parseBitcoinURI("swamp://VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?message=Some Example Address", &rv));
     QVERIFY(rv.address == QString("VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD"));
     QVERIFY(rv.label == QString());
 
-    uri.setUrl(QString("veco:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?req-message=Some Example Address"));
+    uri.setUrl(QString("swamp:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?req-message=Some Example Address"));
     QVERIFY(GUIUtil::parseBitcoinURI(uri, &rv));
 
-    uri.setUrl(QString("veco:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?amount=1,000&label=Some Example"));
+    uri.setUrl(QString("swamp:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?amount=1,000&label=Some Example"));
     QVERIFY(!GUIUtil::parseBitcoinURI(uri, &rv));
 
-    uri.setUrl(QString("veco:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?amount=1,000.0&label=Some Example"));
+    uri.setUrl(QString("swamp:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?amount=1,000.0&label=Some Example"));
     QVERIFY(!GUIUtil::parseBitcoinURI(uri, &rv));
 
-    uri.setUrl(QString("veco:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?amount=100&label=Some Example&message=Some Example Message&IS=1"));
+    uri.setUrl(QString("swamp:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?amount=100&label=Some Example&message=Some Example Message&IS=1"));
     QVERIFY(GUIUtil::parseBitcoinURI(uri, &rv));
     QVERIFY(rv.address == QString("VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD"));
     QVERIFY(rv.amount == 10000000000LL);
@@ -72,7 +72,7 @@ void URITests::uriTests()
     QVERIFY(rv.message == QString("Some Example Message"));
     QVERIFY(rv.fUseInstantSend == 1);
 
-    uri.setUrl(QString("veco:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?amount=100&label=Some Example&message=Some Example Message&IS=Something Invalid"));
+    uri.setUrl(QString("swamp:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?amount=100&label=Some Example&message=Some Example Message&IS=Something Invalid"));
     QVERIFY(GUIUtil::parseBitcoinURI(uri, &rv));
     QVERIFY(rv.address == QString("VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD"));
     QVERIFY(rv.amount == 10000000000LL);
@@ -80,15 +80,15 @@ void URITests::uriTests()
     QVERIFY(rv.message == QString("Some Example Message"));
     QVERIFY(rv.fUseInstantSend != 1);
 
-    uri.setUrl(QString("veco:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?IS=1"));
+    uri.setUrl(QString("swamp:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?IS=1"));
     QVERIFY(GUIUtil::parseBitcoinURI(uri, &rv));
     QVERIFY(rv.fUseInstantSend == 1);
 
-    uri.setUrl(QString("veco:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?IS=0"));
+    uri.setUrl(QString("swamp:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD?IS=0"));
     QVERIFY(GUIUtil::parseBitcoinURI(uri, &rv));
     QVERIFY(rv.fUseInstantSend != 1);
 
-    uri.setUrl(QString("veco:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD"));
+    uri.setUrl(QString("swamp:VSRX8eoxgkvCZ5z7hxBa1CVNkQPwC8pvQD"));
     QVERIFY(GUIUtil::parseBitcoinURI(uri, &rv));
     QVERIFY(rv.fUseInstantSend != 1);
 }

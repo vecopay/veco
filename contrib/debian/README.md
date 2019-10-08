@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package vecod/veco-qt
-for Debian-based Linux systems. If you compile vecod/veco-qt yourself, there are some useful files here.
+This directory contains files used to package swampd/swamp-qt
+for Debian-based Linux systems. If you compile swampd/swamp-qt yourself, there are some useful files here.
 
-## veco: URI support ##
+## swamp: URI support ##
 
 
-veco-qt.desktop  (Gnome / Open Desktop)
+swamp-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install veco-qt.desktop
+	sudo desktop-file-install swamp-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your veco-qt binary to `/usr/bin`
-and the `../../share/pixmaps/veco128.png` to `/usr/share/pixmaps`
+the .desktop file or copy or symlink your swamp-qt binary to `/usr/bin`
+and the `../../share/pixmaps/swamp128.png` to `/usr/share/pixmaps`
 
-veco-qt.protocol (KDE)
+swamp-qt.protocol (KDE)
 

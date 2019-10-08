@@ -345,19 +345,19 @@ static const CRPCCommand vRPCCommands[] =
 #endif
 
     /* Swamp features */
-    { "veco",               "masternode",             &masternode,             true  },
-    { "veco",               "masternodelist",         &masternodelist,         true  },
-    { "veco",               "masternodebroadcast",    &masternodebroadcast,    true  },
-    { "veco",               "gobject",                &gobject,                true  },
-    { "veco",               "getgovernanceinfo",      &getgovernanceinfo,      true  },
-    { "veco",               "getsuperblockbudget",    &getsuperblockbudget,    true  },
-    { "veco",               "voteraw",                &voteraw,                true  },
-    { "veco",               "mnsync",                 &mnsync,                 true  },
-    { "veco",               "spork",                  &spork,                  true  },
-    { "veco",               "getpoolinfo",            &getpoolinfo,            true  },
-    { "veco",               "sentinelping",           &sentinelping,           true  },
+    { "swamp",               "masternode",             &masternode,             true  },
+    { "swamp",               "masternodelist",         &masternodelist,         true  },
+    { "swamp",               "masternodebroadcast",    &masternodebroadcast,    true  },
+    { "swamp",               "gobject",                &gobject,                true  },
+    { "swamp",               "getgovernanceinfo",      &getgovernanceinfo,      true  },
+    { "swamp",               "getsuperblockbudget",    &getsuperblockbudget,    true  },
+    { "swamp",               "voteraw",                &voteraw,                true  },
+    { "swamp",               "mnsync",                 &mnsync,                 true  },
+    { "swamp",               "spork",                  &spork,                  true  },
+    { "swamp",               "getpoolinfo",            &getpoolinfo,            true  },
+    { "swamp",               "sentinelping",           &sentinelping,           true  },
 #ifdef ENABLE_WALLET
-    { "veco",               "privatesend",            &privatesend,            false },
+    { "swamp",               "privatesend",            &privatesend,            false },
 
     /* Wallet */
     { "wallet",             "keepass",                &keepass,                true },
@@ -581,7 +581,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(const std::string& methodname, const std::string& args)
 {
-    return "> veco-cli " + methodname + " " + args + "\n";
+    return "> swamp-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(const std::string& methodname, const std::string& args)

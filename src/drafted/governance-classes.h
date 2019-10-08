@@ -118,7 +118,7 @@ private:
     int nLevel;
     std::string strCategory;
 
-    // Current OBJECT STATUS (see http://govman.veco.org/index.php/Documentation_:_Status_Field)
+    // Current OBJECT STATUS (see http://govman.swamp.org/index.php/Documentation_:_Status_Field)
     int nStatusID;
     std::string strStatusMessage;
 

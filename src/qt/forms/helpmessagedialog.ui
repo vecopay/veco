@@ -76,7 +76,7 @@
         <bool>false</bool>
        </property>
        <property name="pixmap">
-        <pixmap resource="../veco.qrc">:/images/drkblue/about</pixmap>
+        <pixmap resource="../swamp.qrc">:/images/drkblue/about</pixmap>
        </property>
        <property name="scaledContents">
         <bool>false</bool>
@@ -172,7 +172,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../veco.qrc"/>
+  <include location="../swamp.qrc"/>
  </resources>
  <connections>
   <connection>

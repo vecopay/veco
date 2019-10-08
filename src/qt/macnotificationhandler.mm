@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.veco.Swamp-Qt";
+        return @"org.swamp.Swamp-Qt";
     } else {
         return [self __bundleIdentifier];
     }

@@ -31,9 +31,9 @@ Possible options:
 
 ```
   -h, --help            show this help message and exit
-  --nocleanup           Leave vecods and test.* datadir on exit or error
-  --noshutdown          Don't stop vecods after the test execution
-  --srcdir=SRCDIR       Source directory containing vecod/veco-cli
+  --nocleanup           Leave swampds and test.* datadir on exit or error
+  --noshutdown          Don't stop swampds after the test execution
+  --srcdir=SRCDIR       Source directory containing swampd/swamp-cli
                         (default: ../../src)
   --tmpdir=TMPDIR       Root directory for datadirs
   --tracerpc            Print out all RPC calls as they are made
@@ -58,7 +58,7 @@ to recover with:
 
 ```bash
 rm -rf cache
-killall vecod
+killall swampd
 ```
 
 Writing tests

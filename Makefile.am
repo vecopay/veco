@@ -6,12 +6,12 @@ GZIP_ENV="-9n"
 
 if BUILD_BITCOIN_LIBS
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = libvecoconsensus.pc
+pkgconfig_DATA = libswampconsensus.pc
 endif
 
-BITCOIND_BIN=$(top_builddir)/src/vecod$(EXEEXT)
-BITCOIN_QT_BIN=$(top_builddir)/src/qt/veco-qt$(EXEEXT)
-BITCOIN_CLI_BIN=$(top_builddir)/src/veco-cli$(EXEEXT)
+BITCOIND_BIN=$(top_builddir)/src/swampd$(EXEEXT)
+BITCOIN_QT_BIN=$(top_builddir)/src/qt/swamp-qt$(EXEEXT)
+BITCOIN_CLI_BIN=$(top_builddir)/src/swamp-cli$(EXEEXT)
 BITCOIN_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
 
 OSX_APP=Swamp-Qt.app
@@ -41,9 +41,9 @@ OSX_PACKAGING = $(OSX_DEPLOY_SCRIPT) $(OSX_FANCY_PLIST) $(OSX_INSTALLER_ICONS) $
   $(top_srcdir)/contrib/macdeploy/detached-sig-create.sh
 
 COVERAGE_INFO = baseline_filtered_combined.info baseline.info block_test.info \
-  leveldb_baseline.info test_veco_filtered.info total_coverage.info \
+  leveldb_baseline.info test_swamp_filtered.info total_coverage.info \
   baseline_filtered.info block_test_filtered.info rpc_test.info rpc_test_filtered.info \
-  leveldb_baseline_filtered.info test_veco_coverage.info test_veco.info
+  leveldb_baseline_filtered.info test_swamp_coverage.info test_swamp.info
 
 dist-hook:
 	-$(MAKE) -C $(top_distdir)/src/leveldb clean
@@ -162,16 +162,16 @@ leveldb_baseline_filtered.info: leveldb_baseline.info
 baseline_filtered_combined.info: leveldb_baseline_filtered.info baseline_filtered.info
 	$(LCOV) -a leveldb_baseline_filtered.info -a baseline_filtered.info -o $@
 
-test_veco.info: baseline_filtered_combined.info
+test_swamp.info: baseline_filtered_combined.info
 	$(MAKE) -C src/ check
-	$(LCOV) -c -d $(abs_builddir)/src -t test_veco -o $@
+	$(LCOV) -c -d $(abs_builddir)/src -t test_swamp -o $@
 	$(LCOV) -z -d $(abs_builddir)/src
 	$(LCOV) -z -d $(abs_builddir)/src/leveldb
 
-test_veco_filtered.info: test_veco.info
+test_swamp_filtered.info: test_swamp.info
 	$(LCOV) -r $< "/usr/include/*" -o $@
 
-block_test.info: test_veco_filtered.info
+block_test.info: test_swamp_filtered.info
 	$(MKDIR_P) qa/tmp
 	-@TIMEOUT=15 qa/pull-tester/run-bitcoind-for-test.sh $(JAVA) -jar $(JAVA_COMPARISON_TOOL) qa/tmp/compTool $(COMPARISON_TOOL_REORG_TESTS)
 	$(LCOV) -c -d $(abs_builddir)/src --t BitcoinJBlockTest -o $@
@@ -181,7 +181,7 @@ block_test.info: test_veco_filtered.info
 block_test_filtered.info: block_test.info
 	$(LCOV) -r $< "/usr/include/*" -o $@
 
-rpc_test.info: test_veco_filtered.info
+rpc_test.info: test_swamp_filtered.info
 	-@TIMEOUT=15 python qa/pull-tester/rpc-tests.py $(EXTENDED_RPC_TESTS)
 	$(LCOV) -c -d $(abs_builddir)/src --t rpc-tests -o $@
 	$(LCOV) -z -d $(abs_builddir)/src
@@ -190,13 +190,13 @@ rpc_test.info: test_veco_filtered.info
 rpc_test_filtered.info: rpc_test.info
 	$(LCOV) -r $< "/usr/include/*" -o $@
 
-test_veco_coverage.info: baseline_filtered_combined.info test_veco_filtered.info
-	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_veco_filtered.info -o $@
+test_swamp_coverage.info: baseline_filtered_combined.info test_swamp_filtered.info
+	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_swamp_filtered.info -o $@
 
-total_coverage.info: baseline_filtered_combined.info test_veco_filtered.info block_test_filtered.info rpc_test_filtered.info
-	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_veco_filtered.info -a block_test_filtered.info -a rpc_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
+total_coverage.info: baseline_filtered_combined.info test_swamp_filtered.info block_test_filtered.info rpc_test_filtered.info
+	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_swamp_filtered.info -a block_test_filtered.info -a rpc_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
 
-test_veco.coverage/.dirstamp:  test_veco_coverage.info
+test_swamp.coverage/.dirstamp:  test_swamp_coverage.info
 	$(GENHTML) -s $< -o $(@D)
 	@touch $@
 
@@ -204,7 +204,7 @@ total.coverage/.dirstamp: total_coverage.info
 	$(GENHTML) -s $< -o $(@D)
 	@touch $@
 
-cov: test_veco.coverage/.dirstamp total.coverage/.dirstamp
+cov: test_swamp.coverage/.dirstamp total.coverage/.dirstamp
 
 endif
 
@@ -225,4 +225,4 @@ CLEANFILES = $(OSX_DMG) $(BITCOIN_WIN_INSTALLER)
 .INTERMEDIATE: $(COVERAGE_INFO)
 
 clean-local:
-	rm -rf coverage_percent.txt test_veco.coverage/ total.coverage/ qa/tmp/ cache/ $(OSX_APP)
+	rm -rf coverage_percent.txt test_swamp.coverage/ total.coverage/ qa/tmp/ cache/ $(OSX_APP)
