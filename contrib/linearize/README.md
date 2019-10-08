@@ -3,7 +3,7 @@ Construct a linear, no-fork, best version of the blockchain.
 
 ## Step 0: Install veco_hash
 
-https://github.com/VecoOfficial/Veco_hash
+https://github.com/SwampOfficial/Swamp_hash
 
 ## Step 1: Download hash list
 

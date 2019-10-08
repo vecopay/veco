@@ -1,9 +1,9 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Veco
-Comment=Veco P2P Cryptocurrency
-Comment[fr]=Veco, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Veco, eşten eşe kriptografik sanal para birimi
+Name=Swamp
+Comment=Swamp P2P Cryptocurrency
+Comment[fr]=Swamp, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Swamp, eşten eşe kriptografik sanal para birimi
 Exec=veco-qt %u
 Terminal=false
 Type=Application

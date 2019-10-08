@@ -1,13 +1,13 @@
-## **About Veco**
+## **About Swamp**
 
-**SWAMP** is a new innovative cryptocurrency that is building an ecosystem for its community. The Veco community are passionate about cryptocurrency and truly believe blockchain technology is going to change the world. 
+**SWAMP** is a new innovative cryptocurrency that is building an ecosystem for its community. The Swamp community are passionate about cryptocurrency and truly believe blockchain technology is going to change the world. 
 
-Veco is an egalitarian Proof-of-Work (PoW) cryptocurrency that uses YesPoWer 1.0 cpu only algorithm. Veco will start off as a hybrid of PoW and masternodes, and will gradually move towards operating exclusively on masternodes to create a decentralised network which does not rely on any central body control. 
+Swamp is an egalitarian Proof-of-Work (PoW) cryptocurrency that uses YesPoWer 1.0 cpu only algorithm. Swamp will start off as a hybrid of PoW and masternodes, and will gradually move towards operating exclusively on masternodes to create a decentralised network which does not rely on any central body control. 
 
-The Veco team may seek to collaborate with other developers who share the same vision and can add value to the project.
+The Swamp team may seek to collaborate with other developers who share the same vision and can add value to the project.
  
  
-## **Veco Official Links**
+## **Swamp Official Links**
 
 :small_orange_diamond: Website: https://vecocoin.io
 
@@ -25,7 +25,7 @@ The Veco team may seek to collaborate with other developers who share the same v
 
  
  
-## **Veco Features**
+## **Swamp Features**
 
 - [x] CPU Mining – CPU only
 
@@ -35,13 +35,13 @@ The Veco team may seek to collaborate with other developers who share the same v
 
 - [x] PrivateSend
 
-- [x] VecoBot - Discord bot to assist community on official channel
+- [x] SwampBot - Discord bot to assist community on official channel
 
 - [ ] Decentralised Applications - Coming Soon!!!
 
 
 
-## **Veco Coin Specification**
+## **Swamp Coin Specification**
 
 :small_orange_diamond: Proof-of-Work (PoW) & Masternode
 
@@ -65,7 +65,7 @@ The Veco team may seek to collaborate with other developers who share the same v
 
 
 
-## **Veco Official Exchange**
+## **Swamp Official Exchange**
 
 - [x] Crex24 - https://crex24.com/exchange/SWAMP-BTC
 
@@ -85,11 +85,11 @@ The Veco team may seek to collaborate with other developers who share the same v
 
 ## **Donations**
 
-If you'd like to support the development of Veco, please send us any amount of cryptocurrency using the following addresses:
+If you'd like to support the development of Swamp, please send us any amount of cryptocurrency using the following addresses:
 
 Cryptocurrency | Address
 -------------- | -------
-**Veco:** | VEEgBHWiHBKpjmxqQkov6NzWcPWkgdzFDj
+**Swamp:** | VEEgBHWiHBKpjmxqQkov6NzWcPWkgdzFDj
 **Bitcoin:** | 17ydYBDMF2k4DMDYfuNCUAsU8nKW2YozXp
 **Bitcoin Cash:** | qrfh4sdanp96uwa49hzdfgnwe9ddwtyglc3p363g2m
 **Ethereum:** | 0xFcD5E4C37E8bc4774adf9a5e9c9dCceD574789ab
@@ -101,5 +101,5 @@ Cryptocurrency | Address
 **0x:** | 0xFcD5E4C37E8bc4774adf9a5e9c9dCceD574789ab
 
 
-If you would like to donate to help the project in another cryptocurrency that is not listed above, please send us an e-mail or message. Thank you in advance for supporting Veco!
+If you would like to donate to help the project in another cryptocurrency that is not listed above, please send us an e-mail or message. Thank you in advance for supporting Swamp!
 

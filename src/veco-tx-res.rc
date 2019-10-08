@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Veco"
-            VALUE "FileDescription",    "veco-tx (CLI Veco transaction editor utility)"
+            VALUE "CompanyName",        "Swamp"
+            VALUE "FileDescription",    "veco-tx (CLI Swamp transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "veco-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR

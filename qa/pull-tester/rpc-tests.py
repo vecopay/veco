@@ -152,7 +152,7 @@ testScriptsExt = [
     'p2p-acceptblock.py', # NOTE: needs veco_hash to pass
     'mempool_packages.py',
     'maxuploadtarget.py',
-    # 'replace-by-fee.py', # RBF is disabled in Veco Core
+    # 'replace-by-fee.py', # RBF is disabled in Swamp Core
 ]
 
 def runtests():

@@ -4,15 +4,15 @@
 
 	* means the category has an associated class
 	
-	CVecoNetwork: SWAMP NETWORK (ROOT)
+	CSwampNetwork: SWAMP NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
-		vector<CVecoProject> vecProjects;
+		vector<CSwampProject> vecProjects;
 		vector<CGovernanceObject> vecProposals;
 		vector<CBudgetContract> vecContracts;
 		vector<CBudgetUsers> vecUsers;
 
-	CVecoProject:
+	CSwampProject:
 	has:
 		name
 		employees

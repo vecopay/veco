@@ -32,10 +32,10 @@ Package: vecod
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- Veco is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Veco uses peer-to-peer
+ Swamp is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Swamp uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Veco Core
+ and issuing money are carried out collectively by the network. Swamp Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides the daemon, vecod, and the CLI tool
@@ -45,22 +45,22 @@ Package: veco-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- Veco is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Veco uses peer-to-peer
+ Swamp is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Swamp uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Veco Core
+ and issuing money are carried out collectively by the network. Swamp Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides Veco-Qt, a GUI for Veco based on Qt.
+ This package provides Swamp-Qt, a GUI for Swamp based on Qt.
 
 Package: veco-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
- Veco is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Veco uses peer-to-peer
+ Swamp is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Swamp uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Veco Core
+ and issuing money are carried out collectively by the network. Swamp Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides veco-tx, a command-line transaction creation

@@ -1,11 +1,11 @@
-Veco Core 1.0.0.0
+Swamp Core 1.0.0.0
 =====================
 
-This is the official reference wallet for Veco digital currency and comprises the backbone of the Veco peer-to-peer network. You can [download Veco Core](https://github.com/vecodev-the-man/veco/releases) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Swamp digital currency and comprises the backbone of the Swamp peer-to-peer network. You can [download Swamp Core](https://github.com/vecodev-the-man/veco/releases) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Veco on your native platform.
+The following are some helpful notes on how to run Swamp on your native platform.
 
 ### Unix
 
@@ -20,18 +20,18 @@ Unpack the files into a directory, and then run veco-qt.exe.
 
 ### OS X
 
-Drag Veco-Qt to your applications folder, and then run Veco-Qt.
+Drag Swamp-Qt to your applications folder, and then run Swamp-Qt.
 
 ### Need Help?
 
-* See the [Veco documentation](https://github.com/vecodev-the-man/veco/tree/master/doc)
+* See the [Swamp documentation](https://github.com/vecodev-the-man/veco/tree/master/doc)
 for help and more information.
 * Ask for help on [SWAMP Discord channel](https://discord.gg/6vGNAh5).
 * Ask for help on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=3146751) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Veco Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Swamp Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build Veco Core on your native platf
 
 Development
 ---------------------
-The Veco Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Swamp Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

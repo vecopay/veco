@@ -30,7 +30,7 @@ class QUrl;
 class QWidget;
 QT_END_NAMESPACE
 
-/** Utility functions used by the Veco Qt UI.
+/** Utility functions used by the Swamp Qt UI.
  */
 namespace GUIUtil
 {

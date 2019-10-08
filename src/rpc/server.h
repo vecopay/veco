@@ -123,7 +123,7 @@ public:
 };
 
 /**
- * Veco RPC command dispatcher.
+ * Swamp RPC command dispatcher.
  */
 class CRPCTable
 {

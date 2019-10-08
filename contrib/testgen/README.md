@@ -1,6 +1,6 @@
 ### TestGen ###
 
-Utilities to generate test vectors for the data-driven Veco tests.
+Utilities to generate test vectors for the data-driven Swamp tests.
 
 Usage: 
 

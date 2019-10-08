@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
 // Copyright (c) 2014-2018 The Dash Core developers 
-// Copyright (c) 2018-2018 The Veco Core developers
+// Copyright (c) 2018-2018 The Swamp Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -70,7 +70,7 @@ public:
         consensus.BIP34Height = 0;
         consensus.BIP34Hash = uint256S("0x000003fd1dff397d1be86183efd9e13f0316b5f5a3082bac91975a421bc43021");
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan = 86400; // Veco: 1 day
+        consensus.nPowTargetTimespan = 86400; // Swamp: 1 day
         consensus.nPowTargetSpacing = 110; // Swamp: 2.0 minutes
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
@@ -127,18 +127,18 @@ public:
 		//vSeeds.push_back(CDNSSeedData("45.32.217.164", "45.32.217.164"));
 
 
-        // Veco addresses start with 's'
+        // Swamp addresses start with 's'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,73);
-        // Veco script addresses start with '9'
+        // Swamp script addresses start with '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,20);
-        // Veco private keys start with 'X'
+        // Swamp private keys start with 'X'
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,75);
-        // Veco BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
+        // Swamp BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        // Veco BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
+        // Swamp BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
-        // Veco BIP44 coin type is '5'
+        // Swamp BIP44 coin type is '5'
         nExtCoinType = 5;
 
         //vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
@@ -192,8 +192,8 @@ public:
         consensus.BIP34Height = 0;
         consensus.BIP34Hash = uint256S("0x00000997e30aad936446ab7226cecd21875e867a57aca1a46d17be4316bab391");
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan = 24 * 60 * 60; // Veco: 1 day
-        consensus.nPowTargetSpacing = 2.0 * 60; // Veco: 2.0 minutes
+        consensus.nPowTargetTimespan = 24 * 60 * 60; // Swamp: 1 day
+        consensus.nPowTargetSpacing = 2.0 * 60; // Swamp: 2.0 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
         consensus.nPowKGWHeight = 0;
@@ -242,18 +242,18 @@ public:
         vSeeds.push_back(CDNSSeedData("veco.info", "test01.veco.info"));
 		//vSeeds.push_back(CDNSSeedData("veco.info", "test02.veco.info"));
 
-        // Testnet Veco addresses start with 'y'
+        // Testnet Swamp addresses start with 'y'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,140);
-        // Testnet Veco script addresses start with '8' or '9'
+        // Testnet Swamp script addresses start with '8' or '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,19);
         // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
-        // Testnet Veco BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Testnet Swamp BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Veco BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Testnet Swamp BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
 
-        // Testnet Veco BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet Swamp BIP44 coin type is '1' (All coin's testnet default)
         nExtCoinType = 1;
 
         //vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
@@ -308,8 +308,8 @@ public:
         consensus.BIP34Height = -1; // BIP34 has not necessarily activated on regtest
         consensus.BIP34Hash = uint256();
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan = 24 * 60 * 60; // Veco: 1 day
-        consensus.nPowTargetSpacing = 2.0 * 60; // Veco: 2.0 minutes
+        consensus.nPowTargetTimespan = 24 * 60 * 60; // Swamp: 1 day
+        consensus.nPowTargetSpacing = 2.0 * 60; // Swamp: 2.0 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = true;
         consensus.nPowKGWHeight = 0;
@@ -364,18 +364,18 @@ public:
             0,
             0
         };
-        // Regtest Veco addresses start with 'y'
+        // Regtest Swamp addresses start with 'y'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 140);
-        // Regtest Veco script addresses start with '8' or '9'
+        // Regtest Swamp script addresses start with '8' or '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);
         // Regtest private keys start with '9' or 'c' (Bitcoin defaults)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1, 239);
-        // Regtest Veco BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Regtest Swamp BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Regtest Veco BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Regtest Swamp BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
 
-        // Regtest Veco BIP44 coin type is '1' (All coin's testnet default)
+        // Regtest Swamp BIP44 coin type is '1' (All coin's testnet default)
         nExtCoinType = 1;
    }
 };

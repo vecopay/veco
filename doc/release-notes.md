@@ -1,4 +1,4 @@
-Veco Core version 0.12.2.4
+Swamp Core version 0.12.2.4
 ==========================
 
 Release is now available from:
@@ -17,7 +17,7 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/Veco-Qt (on Mac) or
+installer (on Windows) or just copy over /Applications/Swamp-Qt (on Mac) or
 vecod/veco-qt (on Linux).
 
 

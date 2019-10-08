@@ -62,12 +62,12 @@
         <translation>Địa chỉ nhận</translation>
     </message>
     <message>
-        <source>These are your Veco addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Đây là các địa chỉ Veco của bạn để gửi thanh toán. Luôn luôn kiểm tra số tiền và địa chỉ nhận trước khi bạn gửi tiền.</translation>
+        <source>These are your Swamp addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Đây là các địa chỉ Swamp của bạn để gửi thanh toán. Luôn luôn kiểm tra số tiền và địa chỉ nhận trước khi bạn gửi tiền.</translation>
     </message>
     <message>
-        <source>These are your Veco addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Đây là các địa chỉ Veco của bạn để nhận thanh toán. Gợi ý là sử dụng một địa chỉ nhận mới cho mỗi giao dịch.</translation>
+        <source>These are your Swamp addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Đây là các địa chỉ Swamp của bạn để nhận thanh toán. Gợi ý là sử dụng một địa chỉ nhận mới cho mỗi giao dịch.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Ví đã được mã hoá.</translation>
     </message>
     <message>
-        <source>Veco Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your vecos from being stolen by malware infecting your computer.</source>
-        <translation>Veco Core sẽ được đóng lại để hoàn thành quá trình mã hoá. Hãy nhớ rằng mã hoá ví của bạn không thể hoàn toàn bảo vệ veco của bạn khỏi bị ăn cắp bởi việc máy tính của bạn nhiễm mã độc.</translation>
+        <source>Swamp Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your vecos from being stolen by malware infecting your computer.</source>
+        <translation>Swamp Core sẽ được đóng lại để hoàn thành quá trình mã hoá. Hãy nhớ rằng mã hoá ví của bạn không thể hoàn toàn bảo vệ veco của bạn khỏi bị ăn cắp bởi việc máy tính của bạn nhiễm mã độc.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -242,12 +242,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Veco Core can no longer continue safely and will quit.</source>
-        <translation>Có lỗi nghiêm trọng xảy ra. Veco Core không thể tiếp tục một cách an toàn được nên phải thoát ra.</translation>
+        <source>A fatal error occurred. Swamp Core can no longer continue safely and will quit.</source>
+        <translation>Có lỗi nghiêm trọng xảy ra. Swamp Core không thể tiếp tục một cách an toàn được nên phải thoát ra.</translation>
     </message>
     <message>
-        <source>Veco Core</source>
-        <translation>Veco Core</translation>
+        <source>Swamp Core</source>
+        <translation>Swamp Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -270,8 +270,8 @@
         <translation>&amp;Gửi</translation>
     </message>
     <message>
-        <source>Send coins to a Veco address</source>
-        <translation>Gửi tiền vào địa chỉ Veco</translation>
+        <source>Send coins to a Swamp address</source>
+        <translation>Gửi tiền vào địa chỉ Swamp</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -306,12 +306,12 @@
         <translation>Thoát ứng dụng</translation>
     </message>
     <message>
-        <source>&amp;About Veco Core</source>
-        <translation>&amp;Về Veco Core</translation>
+        <source>&amp;About Swamp Core</source>
+        <translation>&amp;Về Swamp Core</translation>
     </message>
     <message>
-        <source>Show information about Veco Core</source>
-        <translation>Hiển thị thông tin về Veco Core</translation>
+        <source>Show information about Swamp Core</source>
+        <translation>Hiển thị thông tin về Swamp Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -326,8 +326,8 @@
         <translation>&amp;Tuỳ chọn...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Veco Core</source>
-        <translation>Thay đổi các tuỳ chọn cấu hình cho Veco Core</translation>
+        <source>Modify configuration options for Swamp Core</source>
+        <translation>Thay đổi các tuỳ chọn cấu hình cho Swamp Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -378,16 +378,16 @@
         <translation>Ký vào &amp;thông điệp...</translation>
     </message>
     <message>
-        <source>Sign messages with your Veco addresses to prove you own them</source>
-        <translation>Ký vào thông điệp với địa chỉ Veco để chứng minh bạn là chủ của chúng</translation>
+        <source>Sign messages with your Swamp addresses to prove you own them</source>
+        <translation>Ký vào thông điệp với địa chỉ Swamp để chứng minh bạn là chủ của chúng</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Kiểm tra thông điệp...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Veco addresses</source>
-        <translation>Kiểm tra thông điệp để đảm bảo rằng nó đã được ký bằng địa chỉ Veco nhất định</translation>
+        <source>Verify messages to ensure they were signed with specified Swamp addresses</source>
+        <translation>Kiểm tra thông điệp để đảm bảo rằng nó đã được ký bằng địa chỉ Swamp nhất định</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -482,8 +482,8 @@
         <translation>&amp;Các Tuỳ chọn dòng lệnh</translation>
     </message>
     <message>
-        <source>Show the Veco Core help message to get a list with possible Veco Core command-line options</source>
-        <translation>Hiển thị thông tin hướng dẫn Veco Core để lấy một danh sách các tuỳ chọn dòng lệnh có thể dùng với Veco Core</translation>
+        <source>Show the Swamp Core help message to get a list with possible Swamp Core command-line options</source>
+        <translation>Hiển thị thông tin hướng dẫn Swamp Core để lấy một danh sách các tuỳ chọn dòng lệnh có thể dùng với Swamp Core</translation>
     </message>
     <message>
         <source>&amp;PrivateSend information</source>
@@ -514,12 +514,12 @@
         <translation>Bảng Thanh công cụ</translation>
     </message>
     <message>
-        <source>Veco Core client</source>
-        <translation>Phần mềm Veco Core</translation>
+        <source>Swamp Core client</source>
+        <translation>Phần mềm Swamp Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Veco network</source>
-        <translation><numerusform>%n kết nối hiện thời tới mạng lưới của Veco</numerusform></translation>
+        <source>%n active connection(s) to Swamp network</source>
+        <translation><numerusform>%n kết nối hiện thời tới mạng lưới của Swamp</numerusform></translation>
     </message>
     <message>
         <source>Network activity disabled</source>
@@ -889,16 +889,16 @@
         <translation>Cấu hình của PrivateSend</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Veco's configuration screen.</source>
-        <translation>PrivateSend đã được thiết lập thành công về mức cơ bản (%1 và 2 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở chức năng cấu hình của Veco.</translation>
+        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Swamp's configuration screen.</source>
+        <translation>PrivateSend đã được thiết lập thành công về mức cơ bản (%1 và 2 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở chức năng cấu hình của Swamp.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Veco's configuration screen.</source>
-        <translation>PrivateSend đã được thiết lập thành công ở mức cao (%1 và 8 vòng). Bạn có thể thay đổi nó bất cứ lúc nào bằng cách mở chức năng cấu hình Veco.</translation>
+        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Swamp's configuration screen.</source>
+        <translation>PrivateSend đã được thiết lập thành công ở mức cao (%1 và 8 vòng). Bạn có thể thay đổi nó bất cứ lúc nào bằng cách mở chức năng cấu hình Swamp.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Veco's configuration screen.</source>
-        <translation>PrivateSend đã được thiết lập thành công ở mức tối đa (%1 và 16 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở chức năng cấu hình của Veco.</translation>
+        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Swamp's configuration screen.</source>
+        <translation>PrivateSend đã được thiết lập thành công ở mức tối đa (%1 và 16 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở chức năng cấu hình của Swamp.</translation>
     </message>
 </context>
 <context>
@@ -940,8 +940,8 @@
         <translation>Sửa địa chỉ gửi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Veco address.</source>
-        <translation>Địa chỉ vừa nhập "%1" không phải địa chỉ Veco hợp lệ.</translation>
+        <source>The entered address "%1" is not a valid Swamp address.</source>
+        <translation>Địa chỉ vừa nhập "%1" không phải địa chỉ Swamp hợp lệ.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -982,8 +982,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Veco Core</source>
-        <translation>Veco Core</translation>
+        <source>Swamp Core</source>
+        <translation>Swamp Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -994,8 +994,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Veco Core</source>
-        <translation>Về Veco Core</translation>
+        <source>About Swamp Core</source>
+        <translation>Về Swamp Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1042,8 +1042,8 @@
         <translation>Thông tin PrivateSend</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Veco in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 SWAMP, 0.1 SWAMP, 1 SWAMP and 10 SWAMP -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;Cơ bản về PrivateSend&lt;/h3&gt; PrivateSend cho bạn sự thực sự riêng tư về tài chính bằng việc che dấu những nguồn cung. Tất cả Veco trong ví của bạn bao gồm những "nguồn" khác nhau mà bạn nghĩ đó là các coin riêng biệt và rời rạc.&lt;br&gt; PrivateSend sử dụng một tiến trình độc đáo để trộn các đầu vào của bạn với đầu vào của những người khác, mà không làm cho các coin rời khỏi ví của bạn. Bạn vẫn giữ quyền kiểm soát tiền của bạn bất cứ lúc nào..&lt;hr&gt; &lt;b&gt;Quá trình PrivateSend làm việc như sau: &lt;/b&gt; &lt;ol type="1"&gt; &lt;li&gt;PrivateSend bắt đầu bằng việc chia các giao dịch đầu vào của bạn thành những mệnh giá chuẩn. Những mệnh giá đó là 0.01 SWAMP, 0.1 SWAMP, 1 SWAMP, và 10 SWAMP -- cũng giống như các mệnh giá trên tiền giấy mà bạn sử dụng hàng ngày.&lt;li&gt; &lt;li&gt;Ví của bạn sau đó gửi yêu cầu đến những nút phần mềm được cấu hình đặc biệt trên mạng gọi là các "masternode". Những masternode được báo rằng bạn quan tâm đến việc xáo trộn một mệnh giá nào đó. Không có thông tin định danh nào được gửi đến cho các masternode, và như vậy họ không bao giờ biết bạn "là ai".&lt;/li&gt; &lt;li&gt;Khi hai người khác nhau gửi những thông điệp tương tự, có nghĩa là họ muốn xáo trộn cùng loại mệnh giá, một phiên xáo trộn bắt đầu.Masternode xáo trộn các đầu vào và hướng dẫn tất cả ví của tất cả ba người dùng để trả đầu vào đã được chuyển đổi trở lại cho chính họ. Ví của bạn sẽ trả mệnh giá đó trực tiếp cho nó, nhưng với một địa chỉ khác (được gọi là địa chỉ trả tiền lẻ).&lt;/li&gt; &lt;/li&gt;Để thực sự che khuất nguồn tiền của bạn, ví của bạn phải lặp lại quy trình đó một số lần với mỗi mệnh giá nhất định. Mỗi lần tiến trình hoàn tất, nó được gọi là một "vòng". Mỗi vòng của PrivateSend làm nên độ khó bậc số mũ để xác định nguồn tiền của bạn đến từ đâu.&lt;/li&gt; &lt;li&gt;Quá trình xáo trộn này xảy ra trong chế độ nền mà không xen vào những việc khác của bạn. Khi bạn muốn làm một giao dịch, nguồn tiền của bạn đã được ẩn danh hoá rồi. Do đó bạn không cần phải đợi thêm gì nữa.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt; &lt;b&gt;QUAN TRỌNG:&lt;/b&gt; Ví của bạn chỉ có chứa 1000 "địa chỉ tiền trả lại". Mỗi lần một sự kiện xáo trộn xảy ra, có đến 9 địa chỉ sẽ được sử dụng. Điều đó có nghĩa với ví mới với 1000 địa chỉ thì dùng cho 100 lần trộn. Khi 900 địa chỉ đã được sử dụng, ví của bạn phải tạo thêm các địa chỉ mới. Nó chỉ có thể làm việc đó, tuy nhiên, nếu bạn có chế độ tự động backup được bật&lt;br&gt; Kết quả là, những người dùng mà chế độ backup bị tắt sẽ có chế độ PrivateSend cũng bị tắt.&lt;hr&gt; Để biết thêm thông tin hãy xem &lt;a href="https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;</translation>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Swamp in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 SWAMP, 0.1 SWAMP, 1 SWAMP and 10 SWAMP -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;Cơ bản về PrivateSend&lt;/h3&gt; PrivateSend cho bạn sự thực sự riêng tư về tài chính bằng việc che dấu những nguồn cung. Tất cả Swamp trong ví của bạn bao gồm những "nguồn" khác nhau mà bạn nghĩ đó là các coin riêng biệt và rời rạc.&lt;br&gt; PrivateSend sử dụng một tiến trình độc đáo để trộn các đầu vào của bạn với đầu vào của những người khác, mà không làm cho các coin rời khỏi ví của bạn. Bạn vẫn giữ quyền kiểm soát tiền của bạn bất cứ lúc nào..&lt;hr&gt; &lt;b&gt;Quá trình PrivateSend làm việc như sau: &lt;/b&gt; &lt;ol type="1"&gt; &lt;li&gt;PrivateSend bắt đầu bằng việc chia các giao dịch đầu vào của bạn thành những mệnh giá chuẩn. Những mệnh giá đó là 0.01 SWAMP, 0.1 SWAMP, 1 SWAMP, và 10 SWAMP -- cũng giống như các mệnh giá trên tiền giấy mà bạn sử dụng hàng ngày.&lt;li&gt; &lt;li&gt;Ví của bạn sau đó gửi yêu cầu đến những nút phần mềm được cấu hình đặc biệt trên mạng gọi là các "masternode". Những masternode được báo rằng bạn quan tâm đến việc xáo trộn một mệnh giá nào đó. Không có thông tin định danh nào được gửi đến cho các masternode, và như vậy họ không bao giờ biết bạn "là ai".&lt;/li&gt; &lt;li&gt;Khi hai người khác nhau gửi những thông điệp tương tự, có nghĩa là họ muốn xáo trộn cùng loại mệnh giá, một phiên xáo trộn bắt đầu.Masternode xáo trộn các đầu vào và hướng dẫn tất cả ví của tất cả ba người dùng để trả đầu vào đã được chuyển đổi trở lại cho chính họ. Ví của bạn sẽ trả mệnh giá đó trực tiếp cho nó, nhưng với một địa chỉ khác (được gọi là địa chỉ trả tiền lẻ).&lt;/li&gt; &lt;/li&gt;Để thực sự che khuất nguồn tiền của bạn, ví của bạn phải lặp lại quy trình đó một số lần với mỗi mệnh giá nhất định. Mỗi lần tiến trình hoàn tất, nó được gọi là một "vòng". Mỗi vòng của PrivateSend làm nên độ khó bậc số mũ để xác định nguồn tiền của bạn đến từ đâu.&lt;/li&gt; &lt;li&gt;Quá trình xáo trộn này xảy ra trong chế độ nền mà không xen vào những việc khác của bạn. Khi bạn muốn làm một giao dịch, nguồn tiền của bạn đã được ẩn danh hoá rồi. Do đó bạn không cần phải đợi thêm gì nữa.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt; &lt;b&gt;QUAN TRỌNG:&lt;/b&gt; Ví của bạn chỉ có chứa 1000 "địa chỉ tiền trả lại". Mỗi lần một sự kiện xáo trộn xảy ra, có đến 9 địa chỉ sẽ được sử dụng. Điều đó có nghĩa với ví mới với 1000 địa chỉ thì dùng cho 100 lần trộn. Khi 900 địa chỉ đã được sử dụng, ví của bạn phải tạo thêm các địa chỉ mới. Nó chỉ có thể làm việc đó, tuy nhiên, nếu bạn có chế độ tự động backup được bật&lt;br&gt; Kết quả là, những người dùng mà chế độ backup bị tắt sẽ có chế độ PrivateSend cũng bị tắt.&lt;hr&gt; Để biết thêm thông tin hãy xem &lt;a href="https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -1053,16 +1053,16 @@
         <translation>Chào mừng</translation>
     </message>
     <message>
-        <source>Welcome to Veco Core.</source>
-        <translation>Chào mừng đến với Veco Core.</translation>
+        <source>Welcome to Swamp Core.</source>
+        <translation>Chào mừng đến với Swamp Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Veco Core will store its data.</source>
-        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà Veco Core sẽ lưu dữ liệu.</translation>
+        <source>As this is the first time the program is launched, you can choose where Swamp Core will store its data.</source>
+        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà Swamp Core sẽ lưu dữ liệu.</translation>
     </message>
     <message>
-        <source>Veco Core will download and store a copy of the Veco block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Veco Core sẽ tải và lưu một bản của sổ cái Veco. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
+        <source>Swamp Core will download and store a copy of the Swamp block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Swamp Core sẽ tải và lưu một bản của sổ cái Swamp. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1073,8 +1073,8 @@
         <translation>Sử dụng thư mục dữ liệu tuỳ chọn:</translation>
     </message>
     <message>
-        <source>Veco Core</source>
-        <translation>Veco Core</translation>
+        <source>Swamp Core</source>
+        <translation>Swamp Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1219,12 +1219,12 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Veco network, as detailed below.</source>
-        <translation>Những giao dịch mới có thể chưa hiện ra, và do đó số dư trong ví của bạn có thể chưa chính xác. Những thông tin này sẽ chính xác một khi ví của bạn đã hoàn tất việc đồng bộ với mạng lưới của Veco, như cụ thể bên dưới.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Swamp network, as detailed below.</source>
+        <translation>Những giao dịch mới có thể chưa hiện ra, và do đó số dư trong ví của bạn có thể chưa chính xác. Những thông tin này sẽ chính xác một khi ví của bạn đã hoàn tất việc đồng bộ với mạng lưới của Swamp, như cụ thể bên dưới.</translation>
     </message>
     <message>
-        <source>Attempting to spend Veco that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Việc chi tiêu Veco khi mà các giao dịch của nó chưa được đồng bộ hết sẽ không được chấp nhận bởi mạng lưới.</translation>
+        <source>Attempting to spend Swamp that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Việc chi tiêu Swamp khi mà các giao dịch của nó chưa được đồng bộ hết sẽ không được chấp nhận bởi mạng lưới.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1317,20 +1317,20 @@
         <translation>(0 = tự động, &lt;0 = để đó rất nhiều lõi miễn phí)</translation>
     </message>
     <message>
-        <source>Amount of Veco to keep anonymized</source>
-        <translation>Lượng Veco muốn giữ vô danh</translation>
+        <source>Amount of Swamp to keep anonymized</source>
+        <translation>Lượng Swamp muốn giữ vô danh</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
         <translation>&amp;Ví</translation>
     </message>
     <message>
-        <source>Automatically start Veco Core after logging in to the system.</source>
-        <translation>Tự động khởi động Veco Core sau khi đăng nhập vào hệ thống.</translation>
+        <source>Automatically start Swamp Core after logging in to the system.</source>
+        <translation>Tự động khởi động Swamp Core sau khi đăng nhập vào hệ thống.</translation>
     </message>
     <message>
-        <source>&amp;Start Veco Core on system login</source>
-        <translation>Khởi động Veco Core khi đăng nhập hệ thống</translation>
+        <source>&amp;Start Swamp Core on system login</source>
+        <translation>Khởi động Swamp Core khi đăng nhập hệ thống</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
@@ -1377,8 +1377,8 @@
         <translation>Số lượng này hoạt động như là một ngưỡng để tắt PrivateSend khi nó được chạm tới.</translation>
     </message>
     <message>
-        <source>Automatically open the Veco Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Tự động mở cổng cho phần mềm Veco Core trên rounter. Điều này chỉ hoạt động được khi rounter của bạn hỗ trợ UpnP và tính năng đó được bật lên.</translation>
+        <source>Automatically open the Swamp Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Tự động mở cổng cho phần mềm Swamp Core trên rounter. Điều này chỉ hoạt động được khi rounter của bạn hỗ trợ UpnP và tính năng đó được bật lên.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1389,8 +1389,8 @@
         <translation>Cho phép các kết nối tới</translation>
     </message>
     <message>
-        <source>Connect to the Veco network through a SOCKS5 proxy.</source>
-        <translation>Kết nối với mạng lưới Veco thông qua một SOCK5 proxy.</translation>
+        <source>Connect to the Swamp network through a SOCKS5 proxy.</source>
+        <translation>Kết nối với mạng lưới Swamp thông qua một SOCK5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1401,8 +1401,8 @@
         <translation>Thu nhỏ thay vì thoát khỏi ứng dụng khi cửa sổ được đóng lại. Khi tuỳ chọn này được bật, ứng dụng sẽ được đóng chỉ sau khi chọn chức năng Thoát trên menu.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Veco Core.</source>
-        <translation>Ngôn ngữa giao diện có thể được chọn ở đây. Tuỳ chọn này có tác dụng ngay sau khi bạn khởi động lại phần mềm Veco Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Swamp Core.</source>
+        <translation>Ngôn ngữa giao diện có thể được chọn ở đây. Tuỳ chọn này có tác dụng ngay sau khi bạn khởi động lại phần mềm Swamp Core.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1473,8 +1473,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Veco network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Kết nối với mạng lưới Veco thông qua các proxy SOCKS5 riêng biệt cho các dịch vụ ẩn danh Tor.</translation>
+        <source>Connect to the Swamp network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Kết nối với mạng lưới Swamp thông qua các proxy SOCKS5 riêng biệt cho các dịch vụ ẩn danh Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1594,8 +1594,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Biểu mẫu</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Veco network after a connection is established, but this process has not completed yet.</source>
-        <translation>Thông tin được hiển thị có thể đã lỗi thời. Ví của bạn sẽ tự động đồng bộ với mạng lưới Veco sau khi kết nối được thiết lập, tuy nhiên quá trình này chưa hoàn thành.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Swamp network after a connection is established, but this process has not completed yet.</source>
+        <translation>Thông tin được hiển thị có thể đã lỗi thời. Ví của bạn sẽ tự động đồng bộ với mạng lưới Swamp sau khi kết nối được thiết lập, tuy nhiên quá trình này chưa hoàn thành.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1879,8 +1879,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Địa chỉ thanh toán không hợp lệ %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Veco address or malformed URI parameters.</source>
-        <translation>URI không thể phân tích. Nó có thể bởi địa chỉ Veco không hợp lệ hoặc thông số URI dị hình.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Swamp address or malformed URI parameters.</source>
+        <translation>URI không thể phân tích. Nó có thể bởi địa chỉ Swamp không hợp lệ hoặc thông số URI dị hình.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1969,8 +1969,8 @@ https://www.transifex.com/projects/p/veco/</translation>
 <context>
     <name>QObject</name>
     <message>
-        <source>Veco Core</source>
-        <translation>Veco Core</translation>
+        <source>Swamp Core</source>
+        <translation>Swamp Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -1989,16 +1989,16 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Lỗi khi đọc file cấu hình masternode: %1</translation>
     </message>
     <message>
-        <source>Veco Core didn't yet exit safely...</source>
-        <translation>Veco Core đã bị tắt không an toàn...</translation>
+        <source>Swamp Core didn't yet exit safely...</source>
+        <translation>Swamp Core đã bị tắt không an toàn...</translation>
     </message>
     <message>
         <source>Amount</source>
         <translation>Số lượng</translation>
     </message>
     <message>
-        <source>Enter a Veco address (e.g. %1)</source>
-        <translation>Hãy nhập một địa chỉ Veco (VD: %1)</translation>
+        <source>Enter a Swamp address (e.g. %1)</source>
+        <translation>Hãy nhập một địa chỉ Swamp (VD: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2163,8 +2163,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Bộ nhớ sử dụng</translation>
     </message>
     <message>
-        <source>Open the Veco Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Mở file theo dõi lỗi Veco Core từ trong thư mục dữ liệu hiện tại. Nó có thể mất vài giây cho những file log lớn.</translation>
+        <source>Open the Swamp Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Mở file theo dõi lỗi Swamp Core từ trong thư mục dữ liệu hiện tại. Nó có thể mất vài giây cho những file log lớn.</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -2379,8 +2379,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>&amp;Bor</translation>
     </message>
     <message>
-        <source>Welcome to the Veco Core RPC console.</source>
-        <translation>Chào mừng đến với bảng điều khiển Veco Core RPC</translation>
+        <source>Welcome to the Swamp Core RPC console.</source>
+        <translation>Chào mừng đến với bảng điều khiển Swamp Core RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2462,8 +2462,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Tái &amp;sử dụng lại địa chỉ nhận đã có (không khuyến khích)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Veco network.</source>
-        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở. Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới Veco.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Swamp network.</source>
+        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở. Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới Swamp.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2474,8 +2474,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Một nhãn tuỳ chọn để liên kết với địa chỉ nhận mới.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Veco network.</source>
-        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở.&lt;br&gt;Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới Veco.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Swamp network.</source>
+        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở.&lt;br&gt;Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới Swamp.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2927,8 +2927,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation><numerusform>Ước lượng để bắt đầu xác thực trong vòng %n khối.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Veco address</source>
-        <translation>Cảnh báo: Địa chỉ Veco không hợp lệ</translation>
+        <source>Warning: Invalid Swamp address</source>
+        <translation>Cảnh báo: Địa chỉ Swamp không hợp lệ</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2950,8 +2950,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Trả &amp;Cho</translation>
     </message>
     <message>
-        <source>The Veco address to send the payment to</source>
-        <translation>Địa chỉ Veco để gửi thanh toán</translation>
+        <source>The Swamp address to send the payment to</source>
+        <translation>Địa chỉ Swamp để gửi thanh toán</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2986,8 +2986,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>&amp;Số tiền:</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Veco than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Phí sẽ được trừ trong khoản tiền mà bạn gửi. Bên nhận sẽ nhận được một khoản nhỏ hơn số Veco mà bạn nhập vào ở trong trường số lượng. Nếu có nhiều người nhận được chọn, phí được chia đều cho mọi người.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Swamp than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Phí sẽ được trừ trong khoản tiền mà bạn gửi. Bên nhận sẽ nhận được một khoản nhỏ hơn số Swamp mà bạn nhập vào ở trong trường số lượng. Nếu có nhiều người nhận được chọn, phí được chia đều cho mọi người.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2998,8 +2998,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Thông điệp:</translation>
     </message>
     <message>
-        <source>A message that was attached to the veco: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Veco network.</source>
-        <translation>Một thông điệp được đính với veco: URI đó sẽ được lưu trữ với các giao dịch cho các bạn tham khảo. Lưu ý: Thông điệp này sẽ không được gửi qua mạng Veco. </translation>
+        <source>A message that was attached to the veco: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Swamp network.</source>
+        <translation>Một thông điệp được đính với veco: URI đó sẽ được lưu trữ với các giao dịch cho các bạn tham khảo. Lưu ý: Thông điệp này sẽ không được gửi qua mạng Swamp. </translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -3025,8 +3025,8 @@ https://www.transifex.com/projects/p/veco/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Veco Core is shutting down...</source>
-        <translation>Veco Core đang được tắt...</translation>
+        <source>Swamp Core is shutting down...</source>
+        <translation>Swamp Core đang được tắt...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3044,12 +3044,12 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>&amp;Ký thông điệp</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive Veco sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Bạn có thể ký vào thông điệp/thoả thuận với địa chỉ của bạn để chứng minh bạn có thể nhận Veco đã gửi cho họ. Hãy cẩn thận không ký vào những gì mơ hồ hay ngẫu nhiên, như là thứ lừa đảo để lừa bạn ký xác nhận của bạn vào đó cho họ. Chỉ ký vào những gì mà bạn hoàn thoàn đồng ý.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Swamp sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Bạn có thể ký vào thông điệp/thoả thuận với địa chỉ của bạn để chứng minh bạn có thể nhận Swamp đã gửi cho họ. Hãy cẩn thận không ký vào những gì mơ hồ hay ngẫu nhiên, như là thứ lừa đảo để lừa bạn ký xác nhận của bạn vào đó cho họ. Chỉ ký vào những gì mà bạn hoàn thoàn đồng ý.</translation>
     </message>
     <message>
-        <source>The Veco address to sign the message with</source>
-        <translation>Địa chỉ Veco để ký cho thông điệp</translation>
+        <source>The Swamp address to sign the message with</source>
+        <translation>Địa chỉ Swamp để ký cho thông điệp</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3080,8 +3080,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Copy chữ ký hiện tại vào bộ đệm của hệ thống</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Veco address</source>
-        <translation>Ký vào thông điệp để chứng tỏ bạn sở hữu địa chỉ Veco</translation>
+        <source>Sign the message to prove you own this Swamp address</source>
+        <translation>Ký vào thông điệp để chứng tỏ bạn sở hữu địa chỉ Swamp</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3104,12 +3104,12 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Hãy nhập vào địa chỉ của người nhận, thông điệp (hãy đảm bảo rằng bạn copy cả dấu xuống dòng, dấu cách, dấu tab,... một cách chính xác) và chữ ký bên dưới để kiểm tra thông điệp. Hãy cẩn thận để không đọc thêm vào phần chữ ký mà nó dùng để ký, để tránh bị đánh lừa bởi kiểu tấn công người trung gian. Chú ý đây chỉ để chứng minh chữ ký của bên nhận với địa chỉ đó, nó không thể chứng minh người gửi hoặc bất kỳ giao dich nào!</translation>
     </message>
     <message>
-        <source>The Veco address the message was signed with</source>
-        <translation>Địa chỉ Veco mà thông điệp được ký bởi</translation>
+        <source>The Swamp address the message was signed with</source>
+        <translation>Địa chỉ Swamp mà thông điệp được ký bởi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Veco address</source>
-        <translation>Kiểm tra lại thông điệp để đảm bảo rằng nó được ký với địa chỉ Veco cụ thể</translation>
+        <source>Verify the message to ensure it was signed with the specified Swamp address</source>
+        <translation>Kiểm tra lại thông điệp để đảm bảo rằng nó được ký với địa chỉ Swamp cụ thể</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3179,8 +3179,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>[mạng thử]</translation>
     </message>
     <message>
-        <source>Veco Core</source>
-        <translation>Veco Core</translation>
+        <source>Swamp Core</source>
+        <translation>Swamp Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3191,8 +3191,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Veco Core developers</source>
-        <translation>Nhóm phát triển Veco Core</translation>
+        <source>The Swamp Core developers</source>
+        <translation>Nhóm phát triển Swamp Core</translation>
     </message>
 </context>
 <context>
@@ -3789,8 +3789,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Liên kết với địa chỉ nhất định và luôn luôn lắng nghe trên đó. Sử dụng ký hiệu [host]:port cho IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Veco Core is probably already running.</source>
-        <translation>Không nhận được một khoá trong thư mục %s. Veco Core có thể đã đang chạy.</translation>
+        <source>Cannot obtain a lock on data directory %s. Swamp Core is probably already running.</source>
+        <translation>Không nhận được một khoá trong thư mục %s. Swamp Core có thể đã đang chạy.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3829,8 +3829,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Đây là phiên bản chưa chính thức - hãy dùng và tự chấp nhận mạo hiểm - đừng dùng để đào coin hoặc các ứng dụng thương mại.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Veco Core is probably already running.</source>
-        <translation>Không thể để ràng buộc vào %s trên máy tính này. Veco Core có thể đã chạy.</translation>
+        <source>Unable to bind to %s on this computer. Swamp Core is probably already running.</source>
+        <translation>Không thể để ràng buộc vào %s trên máy tính này. Swamp Core có thể đã chạy.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4145,8 +4145,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Bản quyền (C) 2009-%i bởi Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Veco Core Developers</source>
-        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển Veco Core</translation>
+        <source>Copyright (C) 2014-%i The Swamp Core Developers</source>
+        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển Swamp Core</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -4165,8 +4165,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Lỗi khi tải %s: Bạn có thể tắt HD trên ví đã có HD.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Veco Core</source>
-        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của Veco Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Swamp Core</source>
+        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của Swamp Core</translation>
     </message>
     <message>
         <source>Failed to load fulfilled requests cache from</source>
@@ -4225,8 +4225,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Thông tin</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Veco Core is shutting down.</source>
-        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. Veco Core đang được tắt.</translation>
+        <source>Initialization sanity check failed. Swamp Core is shutting down.</source>
+        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. Swamp Core đang được tắt.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4481,8 +4481,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Bình luận User Agent (%s) có chứa những ký tự không an toàn.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Veco Core to complete</source>
-        <translation>Ví cần được ghi lại: khởi động lại Veco Core để hoàn tất</translation>
+        <source>Wallet needed to be rewritten: restart Swamp Core to complete</source>
+        <translation>Ví cần được ghi lại: khởi động lại Swamp Core để hoàn tất</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -4533,8 +4533,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Giữ nhiều nhất &lt;n&gt; các giao dịch không kết nối được trong bộ nhớ (ngầm định: %u)</translation>
     </message>
     <message>
-        <source>Disable all Veco specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Tắt tất cả các chức năng đắc trưng của Veco (Masternode, PrivateSend, InstantSend, Governance) (0-1, ngầm định: %u)</translation>
+        <source>Disable all Swamp specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
+        <translation>Tắt tất cả các chức năng đắc trưng của Swamp (Masternode, PrivateSend, InstantSend, Governance) (0-1, ngầm định: %u)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
@@ -4613,8 +4613,8 @@ https://www.transifex.com/projects/p/veco/</translation>
         <translation>Tổng phí tối đa (trong %s) để sử dụng trong một giao dịch đơn; thiết lập tham số này quá thấp có thể khiến bỏ qua những giao dịch lớn (ngầm định: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Veco Core will not work properly.</source>
-        <translation>Hãy kiểm tra ngày giờ trên máy tính của bạn để đảm bảo chúng được chính xác. Nếu đồng hồ của bạn không đúng Veco Core sẽ hoạt động không chính xác.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Swamp Core will not work properly.</source>
+        <translation>Hãy kiểm tra ngày giờ trên máy tính của bạn để đảm bảo chúng được chính xác. Nếu đồng hồ của bạn không đúng Swamp Core sẽ hoạt động không chính xác.</translation>
     </message>
     <message>
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>

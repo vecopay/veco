@@ -23,7 +23,7 @@ packages:
 - "python"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/VecoOfficial/Veco.git"
+- "url": "https://github.com/SwampOfficial/Swamp.git"
   "dir": "veco"
 files:
 - "MacOSX10.9.sdk.tar.gz"
@@ -123,7 +123,7 @@ script: |
     popd
 
     make deploy
-    ${WRAP_DIR}/dmg dmg Veco-Core.dmg ${OUTDIR}/${DISTNAME}-osx-unsigned.dmg
+    ${WRAP_DIR}/dmg dmg Swamp-Core.dmg ${OUTDIR}/${DISTNAME}-osx-unsigned.dmg
 
     cd installed
     find . -name "lib*.la" -delete

@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between veco-cli and vecod)
- * of a given instance of the Veco system.
+ * of a given instance of the Swamp system.
  */
 class CBaseChainParams
 {

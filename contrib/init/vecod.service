@@ -1,5 +1,5 @@
 [Unit]
-Description=Veco's distributed currency daemon
+Description=Swamp's distributed currency daemon
 After=network.target
 
 [Service]

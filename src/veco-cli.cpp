@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2018 The Dash Core developers 
-// Copyright (c) 2018-2018 The Veco Core developers
+// Copyright (c) 2018-2018 The Swamp Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -76,10 +76,10 @@ static int AppInitRPC(int argc, char* argv[])
     //
     ParseParameters(argc, argv);
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help") || mapArgs.count("-version")) {
-        std::string strUsage = _("Veco Core RPC client version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("Swamp Core RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                  "  veco-cli [options] <command> [params]  " + _("Send command to Veco Core") + "\n" +
+                  "  veco-cli [options] <command> [params]  " + _("Send command to Swamp Core") + "\n" +
                   "  veco-cli [options] help                " + _("List commands") + "\n" +
                   "  veco-cli [options] help <command>      " + _("Get help for a command") + "\n";
 

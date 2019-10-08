@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2018 The Dash Core developers 
-// Copyright (c) 2018-2018 The Veco Core developers
+// Copyright (c) 2018-2018 The Swamp Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -73,10 +73,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case SWAMP: return QString("Veco");
-            case mSWAMP: return QString("Milli-Veco (1 / 1" THIN_SP_UTF8 "000)");
-            case uSWAMP: return QString("Micro-Veco (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case veffs: return QString("Ten Nano-Veco (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case SWAMP: return QString("Swamp");
+            case mSWAMP: return QString("Milli-Swamp (1 / 1" THIN_SP_UTF8 "000)");
+            case uSWAMP: return QString("Micro-Swamp (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case veffs: return QString("Ten Nano-Swamp (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -84,10 +84,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case SWAMP: return QString("TestVecos");
-            case mSWAMP: return QString("Milli-TestVeco (1 / 1" THIN_SP_UTF8 "000)");
-            case uSWAMP: return QString("Micro-TestVeco (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case veffs: return QString("Ten Nano-TestVeco (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case SWAMP: return QString("TestSwamps");
+            case mSWAMP: return QString("Milli-TestSwamp (1 / 1" THIN_SP_UTF8 "000)");
+            case uSWAMP: return QString("Micro-TestSwamp (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case veffs: return QString("Ten Nano-TestSwamp (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }

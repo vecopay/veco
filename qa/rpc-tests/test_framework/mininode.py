@@ -1,4 +1,4 @@
-# mininode.py - Veco P2P network half-a-node
+# mininode.py - Swamp P2P network half-a-node
 #
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -1185,7 +1185,7 @@ class NodeConn(asyncore.dispatcher):
         vt.addrFrom.ip = "0.0.0.0"
         vt.addrFrom.port = 0
         self.send_message(vt, True)
-        print 'MiniNode: Connecting to Veco Node IP # ' + dstaddr + ':' \
+        print 'MiniNode: Connecting to Swamp Node IP # ' + dstaddr + ':' \
             + str(dstport)
 
         try:

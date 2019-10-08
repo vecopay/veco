@@ -42,7 +42,7 @@ QT_TRANSLATE_NOOP("veco-core", ""
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
 QT_TRANSLATE_NOOP("veco-core", ""
-"Cannot obtain a lock on data directory %s. Veco Core is probably already "
+"Cannot obtain a lock on data directory %s. Swamp Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("veco-core", ""
 "Create new files with system default permissions, instead of umask 077 (only "
@@ -51,7 +51,7 @@ QT_TRANSLATE_NOOP("veco-core", ""
 "Delete all wallet transactions and only recover those parts of the "
 "blockchain through -rescan on startup"),
 QT_TRANSLATE_NOOP("veco-core", ""
-"Disable all Veco specific functionality (Masternodes, PrivateSend, "
+"Disable all Swamp specific functionality (Masternodes, PrivateSend, "
 "InstantSend, Governance) (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("veco-core", ""
 "Discover own IP addresses (default: 1 when listening and no -externalip or -"
@@ -158,7 +158,7 @@ QT_TRANSLATE_NOOP("veco-core", ""
 "Output debugging information (default: %u, supplying <category> is optional)"),
 QT_TRANSLATE_NOOP("veco-core", ""
 "Please check that your computer's date and time are correct! If your clock "
-"is wrong Veco Core will not work properly."),
+"is wrong Swamp Core will not work properly."),
 QT_TRANSLATE_NOOP("veco-core", ""
 "PrivateSend uses exact denominated amounts to send funds, you might simply "
 "need to anonymize some more coins."),
@@ -221,7 +221,7 @@ QT_TRANSLATE_NOOP("veco-core", ""
 "Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = "
 "no limit (default: %d)"),
 QT_TRANSLATE_NOOP("veco-core", ""
-"Unable to bind to %s on this computer. Veco Core is probably already running."),
+"Unable to bind to %s on this computer. Swamp Core is probably already running."),
 QT_TRANSLATE_NOOP("veco-core", ""
 "Unable to locate enough PrivateSend denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("veco-core", ""
@@ -333,7 +333,7 @@ QT_TRANSLATE_NOOP("veco-core", "Connect to KeePassHttp on port <port> (default: 
 QT_TRANSLATE_NOOP("veco-core", "Connect to a node to retrieve peer addresses, and disconnect"),
 QT_TRANSLATE_NOOP("veco-core", "Connection options:"),
 QT_TRANSLATE_NOOP("veco-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
-QT_TRANSLATE_NOOP("veco-core", "Copyright (C) 2014-%i The Veco Core Developers"),
+QT_TRANSLATE_NOOP("veco-core", "Copyright (C) 2014-%i The Swamp Core Developers"),
 QT_TRANSLATE_NOOP("veco-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("veco-core", "Could not parse masternode.conf"),
 QT_TRANSLATE_NOOP("veco-core", "Debugging/Testing options:"),
@@ -358,7 +358,7 @@ QT_TRANSLATE_NOOP("veco-core", "Error loading %s: You can't disable HD on a alre
 QT_TRANSLATE_NOOP("veco-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("veco-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("veco-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("veco-core", "Error loading wallet.dat: Wallet requires newer version of Veco Core"),
+QT_TRANSLATE_NOOP("veco-core", "Error loading wallet.dat: Wallet requires newer version of Swamp Core"),
 QT_TRANSLATE_NOOP("veco-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("veco-core", "Error reading from database, shutting down."),
 QT_TRANSLATE_NOOP("veco-core", "Error"),
@@ -385,7 +385,7 @@ QT_TRANSLATE_NOOP("veco-core", "Incompatible mode."),
 QT_TRANSLATE_NOOP("veco-core", "Incompatible version."),
 QT_TRANSLATE_NOOP("veco-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("veco-core", "Information"),
-QT_TRANSLATE_NOOP("veco-core", "Initialization sanity check failed. Veco Core is shutting down."),
+QT_TRANSLATE_NOOP("veco-core", "Initialization sanity check failed. Swamp Core is shutting down."),
 QT_TRANSLATE_NOOP("veco-core", "Input is not valid."),
 QT_TRANSLATE_NOOP("veco-core", "InstantSend options:"),
 QT_TRANSLATE_NOOP("veco-core", "Insufficient funds."),
@@ -537,7 +537,7 @@ QT_TRANSLATE_NOOP("veco-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("veco-core", "Very low number of keys left: %d"),
 QT_TRANSLATE_NOOP("veco-core", "Wallet %s resides outside data directory %s"),
 QT_TRANSLATE_NOOP("veco-core", "Wallet is locked."),
-QT_TRANSLATE_NOOP("veco-core", "Wallet needed to be rewritten: restart Veco Core to complete"),
+QT_TRANSLATE_NOOP("veco-core", "Wallet needed to be rewritten: restart Swamp Core to complete"),
 QT_TRANSLATE_NOOP("veco-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("veco-core", "Wallet window title"),
 QT_TRANSLATE_NOOP("veco-core", "Warning"),

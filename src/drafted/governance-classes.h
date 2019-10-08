@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2018 The Dash Core developers 
-// Copyright (c) 2018-2018 The Veco Core developers
+// Copyright (c) 2018-2018 The Swamp Core developers
 
 /*
  * FIELDS AND CLASSIFICATION
@@ -46,7 +46,7 @@
  * =========================
  *
  *   // network
- *   CVecoNetwork lvl, network-type, network-status, network-error, milestone-status*
+ *   CSwampNetwork lvl, network-type, network-status, network-error, milestone-status*
  *   CCategory lvl, category-type, status, status-error
  *   CNetworkGlobalVariable lvl, global-type, status, status-error
  *   // base: actor
@@ -131,7 +131,7 @@ public:
 };
 
 // // root node
-class CVecoNetwork : public CGovernanceObject
+class CSwampNetwork : public CGovernanceObject
 {
 private:
     std::string strName;
@@ -139,7 +139,7 @@ private:
 
 
 public:
-    CVecoNetwork(UniValue objIn)
+    CSwampNetwork(UniValue objIn)
     {
         strName = objIn["name"].get_str();
         strURL = objIn["name"].get_str();
@@ -175,9 +175,9 @@ public:
 
 };
 
-// // can be under: VecoNetwork
+// // can be under: SwampNetwork
 // //   -- signature requirements : Key1(User)
-// class CVecoNetworkVariable : public CGovernanceObject
+// class CSwampNetworkVariable : public CGovernanceObject
 // {
 // private:
 
@@ -280,7 +280,7 @@ public:
 //     // isRootCategory()
 //     // {
 //     //     // root categories won't have categories as parents
-//     //     return (IsType() == VecoNetwork);
+//     //     return (IsType() == SwampNetwork);
 //     // }
 
 //     // isSubcategoryOf(std::string strParentName)

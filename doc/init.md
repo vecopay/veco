@@ -68,9 +68,9 @@ can then be controlled by group membership.
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/vecod`  
-Configuration file:  `~/Library/Application Support/VecoCore/veco.conf`  
-Data directory:      `~/Library/Application Support/VecoCore`
-Lock file:           `~/Library/Application Support/VecoCore/.lock`
+Configuration file:  `~/Library/Application Support/SwampCore/veco.conf`  
+Data directory:      `~/Library/Application Support/SwampCore`
+Lock file:           `~/Library/Application Support/SwampCore/.lock`
 
 4. Installing Service Configuration
 -----------------------------------

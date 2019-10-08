@@ -16,9 +16,9 @@ enum GovernanceObjectType {
     ValueOverride = 1, 
 
     // -------------------------------
-    // VecoNetwork - is the root node
-    VecoNetwork = 1000,
-    VecoNetworkVariable = 1001,
+    // SwampNetwork - is the root node
+    SwampNetwork = 1000,
+    SwampNetworkVariable = 1001,
     Category = 1002,
 
     // Actors

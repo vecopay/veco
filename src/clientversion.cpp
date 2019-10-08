@@ -13,7 +13,7 @@
  * for both vecod and veco-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Veco Core");
+const std::string CLIENT_NAME("Swamp Core");
 
 /**
  * Client version number

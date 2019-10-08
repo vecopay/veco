@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your Veco addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono i tuoi indirizzi Veco per inviare i pagamenti. Controlla sempre l'ammontare e l'indirizzo destinatario prima di inviare i veco.</translation>
+        <source>These are your Swamp addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono i tuoi indirizzi Swamp per inviare i pagamenti. Controlla sempre l'ammontare e l'indirizzo destinatario prima di inviare i veco.</translation>
     </message>
     <message>
-        <source>These are your Veco addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono i tuoi indirizzi di Veco per ricevere i pagamenti. Si raccomanda di usare un nuovo indirizzo di ricezione per ogni operazione.</translation>
+        <source>These are your Swamp addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono i tuoi indirizzi di Swamp per ricevere i pagamenti. Si raccomanda di usare un nuovo indirizzo di ricezione per ogni operazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Portafoglio cifrato</translation>
     </message>
     <message>
-        <source>Veco will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your vecos from being stolen by malware infecting your computer.</source>
-        <translation>Veco adesso si chiuderá per finire il processo di crittografia. Ricorda che crittografare il tuo portafoglio non ti da una protezione totale se il tuo computer é infettato da malware</translation>
+        <source>Swamp will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your vecos from being stolen by malware infecting your computer.</source>
+        <translation>Swamp adesso si chiuderá per finire il processo di crittografia. Ricorda che crittografare il tuo portafoglio non ti da una protezione totale se il tuo computer é infettato da malware</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Veco Core</source>
-        <translation>Veco Core</translation>
+        <source>Swamp Core</source>
+        <translation>Swamp Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,8 +255,8 @@
         <translation>&amp;Invia</translation>
     </message>
     <message>
-        <source>Send coins to a Veco address</source>
-        <translation>Spedire veco ad un indirizzo Veco</translation>
+        <source>Send coins to a Swamp address</source>
+        <translation>Spedire veco ad un indirizzo Swamp</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -283,12 +283,12 @@
         <translation>Chiudi applicazione</translation>
     </message>
     <message>
-        <source>&amp;About Veco Core</source>
-        <translation>&amp;Su Veco Core</translation>
+        <source>&amp;About Swamp Core</source>
+        <translation>&amp;Su Swamp Core</translation>
     </message>
     <message>
-        <source>Show information about Veco Core</source>
-        <translation>Mostra la informazione su Veco Core</translation>
+        <source>Show information about Swamp Core</source>
+        <translation>Mostra la informazione su Swamp Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Opzioni...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Veco</source>
-        <translation>Modifica le opzioni di configurazione di Veco</translation>
+        <source>Modify configuration options for Swamp</source>
+        <translation>Modifica le opzioni di configurazione di Swamp</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Firma il &amp;messaggio...</translation>
     </message>
     <message>
-        <source>Sign messages with your Veco addresses to prove you own them</source>
-        <translation>Firma i messaggi con il tuo indirizzo Veco per dimostrarne che li possiedi</translation>
+        <source>Sign messages with your Swamp addresses to prove you own them</source>
+        <translation>Firma i messaggi con il tuo indirizzo Swamp per dimostrarne che li possiedi</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verifica messaggio...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Veco addresses</source>
-        <translation>Verificare i messaggi per assicurarsi che sono firmati con gli indirizzi specificati di Veco</translation>
+        <source>Verify messages to ensure they were signed with specified Swamp addresses</source>
+        <translation>Verificare i messaggi per assicurarsi che sono firmati con gli indirizzi specificati di Swamp</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -443,16 +443,16 @@
         <translation>Opzioni riga di &amp;comando</translation>
     </message>
     <message>
-        <source>Veco Core client</source>
-        <translation>Cliente Veco Core</translation>
+        <source>Swamp Core client</source>
+        <translation>Cliente Swamp Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
         <translation><numerusform>Processato %n blocco della cronologia transazioni.</numerusform><numerusform>Processati %n blocchi della cronologia transazioni.</numerusform></translation>
     </message>
     <message>
-        <source>Show the Veco Core help message to get a list with possible Veco command-line options</source>
-        <translation>Mostra il messaggio di aiuto di Veco Core per ottenere una lista con le possibili opzioni di linea di comando di Veco</translation>
+        <source>Show the Swamp Core help message to get a list with possible Swamp command-line options</source>
+        <translation>Mostra il messaggio di aiuto di Swamp Core per ottenere una lista con le possibili opzioni di linea di comando di Swamp</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -475,8 +475,8 @@
         <translation>Barra degli strumenti "Tabs"</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Veco network</source>
-        <translation><numerusform>%n connessione attiva alla rete Veco</numerusform><numerusform>%n connessioni attive alla rete Veco</numerusform></translation>
+        <source>%n active connection(s) to Swamp network</source>
+        <translation><numerusform>%n connessione attiva alla rete Swamp</numerusform><numerusform>%n connessioni attive alla rete Swamp</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -865,16 +865,16 @@ Indirizzo: %4
         <translation>Configurazione Darksend</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Veco's configuration screen.</source>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Swamp's configuration screen.</source>
         <translation>Dark send è statto correttamente impostato su base (%1 e 2 round). Puoi cambiare questa impostazione in qualsiasi momento tu lo voglia dalla finestra di configurazione.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Veco's configuration screen.</source>
-        <translation>Darksend è stata impostata correttamente a elevato (%1 e 8 turni). È possibile modificare in qualsiasi momento aprendo schermata di configurazione di Veco.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Swamp's configuration screen.</source>
+        <translation>Darksend è stata impostata correttamente a elevato (%1 e 8 turni). È possibile modificare in qualsiasi momento aprendo schermata di configurazione di Swamp.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Veco's configuration screen.</source>
-        <translation>Darksend è stato correttamente settato al massimo (%1 e 16 rounds). Puoi cambiarlo quando vuoi aprendo la finestra di configurazione di Veco</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Swamp's configuration screen.</source>
+        <translation>Darksend è stato correttamente settato al massimo (%1 e 16 rounds). Puoi cambiarlo quando vuoi aprendo la finestra di configurazione di Swamp</translation>
     </message>
 </context>
 <context>
@@ -916,8 +916,8 @@ Indirizzo: %4
         <translation>Modifica indirizzo d'invio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Veco address.</source>
-        <translation>L'indirizzo inserito "%1" non é un indirizzo Veco valido</translation>
+        <source>The entered address "%1" is not a valid Swamp address.</source>
+        <translation>L'indirizzo inserito "%1" non é un indirizzo Swamp valido</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -958,16 +958,16 @@ Indirizzo: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Veco Core</source>
-        <translation>Veco Core</translation>
+        <source>Swamp Core</source>
+        <translation>Swamp Core</translation>
     </message>
     <message>
         <source>version</source>
         <translation>versione</translation>
     </message>
     <message>
-        <source>About Veco Core</source>
-        <translation>Su Veco Core</translation>
+        <source>About Swamp Core</source>
+        <translation>Su Swamp Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1013,16 +1013,16 @@ Indirizzo: %4
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Welcome to Veco Core.</source>
-        <translation>Benvenuto in Veco Core</translation>
+        <source>Welcome to Swamp Core.</source>
+        <translation>Benvenuto in Swamp Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Veco Core will store its data.</source>
-        <translation>Essendo la prima volta nella quale il programma viene lanciato, puoi scegliere dove Veco Core memorizzerà i propri dati.</translation>
+        <source>As this is the first time the program is launched, you can choose where Swamp Core will store its data.</source>
+        <translation>Essendo la prima volta nella quale il programma viene lanciato, puoi scegliere dove Swamp Core memorizzerà i propri dati.</translation>
     </message>
     <message>
-        <source>Veco Core will download and store a copy of the Veco block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Veco Core scaricherà e salverà una copia della blocco catena. Almeno %1GB di dati sarà immagazzinato in questa cartella e aumenterà col tempo. Anche il portafoglio sarà conservato in questa cartella.</translation>
+        <source>Swamp Core will download and store a copy of the Swamp block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Swamp Core scaricherà e salverà una copia della blocco catena. Almeno %1GB di dati sarà immagazzinato in questa cartella e aumenterà col tempo. Anche il portafoglio sarà conservato in questa cartella.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1033,8 +1033,8 @@ Indirizzo: %4
         <translation>Usa una cartella dati personalizzata:</translation>
     </message>
     <message>
-        <source>Veco Core</source>
-        <translation>Veco Core</translation>
+        <source>Swamp Core</source>
+        <translation>Swamp Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1087,12 +1087,12 @@ Indirizzo: %4
         <translation>&amp;Principale</translation>
     </message>
     <message>
-        <source>Automatically start Veco after logging in to the system.</source>
-        <translation>Esegui automaticamente Veco Core all'avvio del sistema.</translation>
+        <source>Automatically start Swamp after logging in to the system.</source>
+        <translation>Esegui automaticamente Swamp Core all'avvio del sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Veco on system login</source>
-        <translation>&amp;Esegui Veco al login di sistema</translation>
+        <source>&amp;Start Swamp on system login</source>
+        <translation>&amp;Esegui Swamp al login di sistema</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1119,8 +1119,8 @@ Indirizzo: %4
         <translation>Tale importo si comporta come una soglia per spegnere Darksend una volta che è raggiunto.</translation>
     </message>
     <message>
-        <source>Amount of Veco to keep anonymized</source>
-        <translation>Quantitá di Veco da mantenere anonima.</translation>
+        <source>Amount of Swamp to keep anonymized</source>
+        <translation>Quantitá di Swamp da mantenere anonima.</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1135,8 +1135,8 @@ Indirizzo: %4
         <translation>Permetti connessioni in entrata</translation>
     </message>
     <message>
-        <source>Connect to the Veco network through a SOCKS5 proxy.</source>
-        <translation>Connetta a la rete Veco attraverso un SOCKS5 proxy</translation>
+        <source>Connect to the Swamp network through a SOCKS5 proxy.</source>
+        <translation>Connetta a la rete Swamp attraverso un SOCKS5 proxy</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1163,8 +1163,8 @@ Indirizzo: %4
         <translation>Rete</translation>
     </message>
     <message>
-        <source>Automatically open the Veco client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Apri automaticamente la porta utilizzata dal client Veco nel router. Funziona solo se il router supporta UPnP ed è attivato.</translation>
+        <source>Automatically open the Swamp client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Apri automaticamente la porta utilizzata dal client Swamp nel router. Funziona solo se il router supporta UPnP ed è attivato.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1215,7 +1215,7 @@ Indirizzo: %4
         <translation>&amp;Lingua Interfaccia Utente:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Veco.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Swamp.</source>
         <translation>La lingua dell'interfaccia utente può essere impostata qui. Questo settaggio sarà attivo al riavvio del client.</translation>
     </message>
     <message>
@@ -1301,8 +1301,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Modulo</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Veco network after a connection is established, but this process has not completed yet.</source>
-        <translation>Le informazioni visualizzate potrebbero essere datate. Il portafoglio si sincronizza automaticamente con il Veco rete dopo che una connessione viene stabilizzata, ma questo processo non è stato ancora completato.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Swamp network after a connection is established, but this process has not completed yet.</source>
+        <translation>Le informazioni visualizzate potrebbero essere datate. Il portafoglio si sincronizza automaticamente con il Swamp rete dopo che una connessione viene stabilizzata, ma questo processo non è stato ancora completato.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1514,8 +1514,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Invalido indirizzo di pago %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Veco address or malformed URI parameters.</source>
-        <translation>Impossibile interpretare l'URI! La causa puó essere un indirizzo Veco non valido o parametri URI non corretti.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Swamp address or malformed URI parameters.</source>
+        <translation>Impossibile interpretare l'URI! La causa puó essere un indirizzo Swamp non valido o parametri URI non corretti.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1596,8 +1596,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Importo</translation>
     </message>
     <message>
-        <source>Enter a Veco address (e.g. %1)</source>
-        <translation>Inserire un indirizzo Veco (e.g. %1)</translation>
+        <source>Enter a Swamp address (e.g. %1)</source>
+        <translation>Inserire un indirizzo Swamp (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1682,7 +1682,7 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Numero di connessioni</translation>
     </message>
     <message>
-        <source>Open the Veco debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Swamp debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Apri il file log di debug dall'attuale cartella dei dati. Può richiedere un paio di secondi per file di grossa dimensione.</translation>
     </message>
     <message>
@@ -1866,8 +1866,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Uscita:</translation>
     </message>
     <message>
-        <source>Welcome to the Veco RPC console.</source>
-        <translation>Benvenuto nella console RPC Veco</translation>
+        <source>Welcome to the Swamp RPC console.</source>
+        <translation>Benvenuto nella console RPC Swamp</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1921,8 +1921,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>R&amp;iusa un indirizzo di ricezione (non raccomandato)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Veco network.</source>
-        <translation>Messaggio opzionale da allegare alla richiesta di pagamento, che verrà visualizzato quando la richiesta verrà aperta. Nota: il messaggio non sarà inviato insieme al pagamento nel network Veco.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Swamp network.</source>
+        <translation>Messaggio opzionale da allegare alla richiesta di pagamento, che verrà visualizzato quando la richiesta verrà aperta. Nota: il messaggio non sarà inviato insieme al pagamento nel network Swamp.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2338,8 +2338,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Pagare solo la minima commissione di %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Veco address</source>
-        <translation>ATTENZIONE: Indirizzo Veco non valido</translation>
+        <source>Warning: Invalid Swamp address</source>
+        <translation>ATTENZIONE: Indirizzo Swamp non valido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2361,8 +2361,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Paga &amp;a:</translation>
     </message>
     <message>
-        <source>The Veco address to send the payment to</source>
-        <translation>L'indirizzo Veco per inviare il pagamento a </translation>
+        <source>The Swamp address to send the payment to</source>
+        <translation>L'indirizzo Swamp per inviare il pagamento a </translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2401,8 +2401,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Messaggio:</translation>
     </message>
     <message>
-        <source>A message that was attached to the veco: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Veco network.</source>
-        <translation>Un messaggio allegato con l'URI veco che verrà memorizzato nella transazione per il tuo referente. Nota: questo messaggio non verrà inviato attraverso il network Veco.</translation>
+        <source>A message that was attached to the veco: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Swamp network.</source>
+        <translation>Un messaggio allegato con l'URI veco che verrà memorizzato nella transazione per il tuo referente. Nota: questo messaggio non verrà inviato attraverso il network Swamp.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2428,8 +2428,8 @@ Più URL vengono separati da una barra verticale |.</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Veco Core is shutting down...</source>
-        <translation>Veco Core si sta chiudendo...</translation>
+        <source>Swamp Core is shutting down...</source>
+        <translation>Swamp Core si sta chiudendo...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2451,8 +2451,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Puoi firmare messaggi con i tuoi indirizzi in modo da dimostrarne il possesso. Presta attenzione a non firmare dichiarazioni vaghe, attacchi di phishing potrebbero cercare di spingerti ad apporre la tua firma su di esse. Firma solo dichiarazioni completamente dettagliate e delle quali condividi in pieno il contenuto.</translation>
     </message>
     <message>
-        <source>The Veco address to sign the message with</source>
-        <translation>L'indirizzo Veco con cui firmare il messaggio</translation>
+        <source>The Swamp address to sign the message with</source>
+        <translation>L'indirizzo Swamp con cui firmare il messaggio</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2483,8 +2483,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Copia la firma corrente nella clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Veco address</source>
-        <translation>Firma il mssaggio per dimostrare il possesso di questo indirizzo Veco</translation>
+        <source>Sign the message to prove you own this Swamp address</source>
+        <translation>Firma il mssaggio per dimostrare il possesso di questo indirizzo Swamp</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2507,12 +2507,12 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Inserisci l'indirizzo del firmatario, il messaggio (assicurati di copiare esattamente anche i ritorni a capo, gli spazi, le tabulazioni, etc..) e la firma qui sotto, per verificare il messaggio. Presta attenzione a non vedere nella firma più di quanto non sia riportato nel messaggio stesso, per evitare di cadere vittima di attacchi di tipo man-in-the-middle.</translation>
     </message>
     <message>
-        <source>The Veco address the message was signed with</source>
-        <translation>L'indirizzo Veco con cui era firmato il messaggio</translation>
+        <source>The Swamp address the message was signed with</source>
+        <translation>L'indirizzo Swamp con cui era firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Veco address</source>
-        <translation>Verifica il messaggio per assicurarti sia stato firmato con l'indirizzo Veco specificato</translation>
+        <source>Verify the message to ensure it was signed with the specified Swamp address</source>
+        <translation>Verifica il messaggio per assicurarti sia stato firmato con l'indirizzo Swamp specificato</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2578,8 +2578,8 @@ Più URL vengono separati da una barra verticale |.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Veco Core</source>
-        <translation>Veco Core</translation>
+        <source>Swamp Core</source>
+        <translation>Swamp Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2590,8 +2590,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Gli sviluppatori di Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Veco Core developers</source>
-        <translation>Gli sviluppatori di Veco Core</translation>
+        <source>The Swamp Core developers</source>
+        <translation>Gli sviluppatori di Swamp Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3164,8 +3164,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Associa all'indirizzo indicato e resta permanentemente in ascolto su questo. Usa la notazione [host]:porta per l'IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Veco Core is probably already running.</source>
-        <translation>Impossibile ottenere un blocco sulla data directory %s. Veco Core è probabilmente già in esecuzione.</translation>
+        <source>Cannot obtain a lock on data directory %s. Swamp Core is probably already running.</source>
+        <translation>Impossibile ottenere un blocco sulla data directory %s. Swamp Core è probabilmente già in esecuzione.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3220,8 +3220,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Questa versione è una compilazione pre-rilascio - usala a tuo rischio - non utilizzarla per la generazione o per applicazioni di commercio</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Veco Core is probably already running.</source>
-        <translation>Incapace di legare al %s su questo computer. Veco Core è probabilmente già funzionato.</translation>
+        <source>Unable to bind to %s on this computer. Swamp Core is probably already running.</source>
+        <translation>Incapace di legare al %s su questo computer. Swamp Core è probabilmente già funzionato.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3468,8 +3468,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Errore di connessione al Masternode</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Veco Core</source>
-        <translation>Errore caricando il wallet.dat: il Pertafoglio ha bisogno di una versione di Veco Core piú recente.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Swamp Core</source>
+        <translation>Errore caricando il wallet.dat: il Pertafoglio ha bisogno di una versione di Swamp Core piú recente.</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3508,8 +3508,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Informazioni</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Veco Core is shutting down.</source>
-        <translation>Controllo di inizializzazione sanity fallito. Veco Core verrà chiuso.</translation>
+        <source>Initialization sanity check failed. Swamp Core is shutting down.</source>
+        <translation>Controllo di inizializzazione sanity fallito. Swamp Core verrà chiuso.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>

@@ -52,7 +52,7 @@ static int AppInitRawTx(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Veco Core veco-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Swamp Core veco-tx utility version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
               "  veco-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded veco transaction") + "\n" +
               "  veco-tx [options] -create [commands]   " + _("Create hex-encoded veco transaction") + "\n" +
