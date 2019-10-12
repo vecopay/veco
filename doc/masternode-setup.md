@@ -54,7 +54,7 @@ mn 67.166.248.227:31110 7Wowe2ZWhjRdh1FXxi5UqBqSvGNkx3NsYKY4NLnhStZEJYmMyqg 7422
 
 Save the masternode.conf file.  If using nano press control and x at the same time, press y to confirm, press enter to save
 
-When you restart your wallet you muat wait until its fully in sync and then use command: sudo <path to swamp-cli>/swamp-cli masternode start-alias mn
+When you restart your wallet you must wait until it's fully in sync and then use command: sudo <path to swamp-cli>/swamp-cli masternode start-alias mn
 The "mn" in the command is the name you gave your node.  Feel free to call it anything you like.
 
 You can check status of your masternode by using command: sudo <path to swamp-cli>/swamp-cli masternode status
