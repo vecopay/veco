@@ -47,7 +47,10 @@ Add the following substituting in the info we gathered above.
 mn <your public ip without brackets>:33333 <the result of #2 above without the brackets>
 
 It will end up looking something like this
+
+
 mn 67.166.248.227:31110 7Wowe2ZWhjRdh1FXxi5UqBqSvGNkx3NsYKY4NLnhStZEJYmMyqg 7422b6e19b55ae41cb153b9be83d50721c666fd78a365763a7d35d2840967d54 1
+
 
 Save the masternode.conf file.  If using nano press control and x at the same time, press y to confirm, press enter to save
 
