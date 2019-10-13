@@ -19,7 +19,7 @@ If you like the idea of owning and controlling your own money, feel free to cont
 <tr><td>Consensus algorithm</td><td>PoW</td></tr>
 <tr><td>PoW block reward</td><td>Dynamic from 10 SWAMP at genesis, halvings apply</td></tr>
 <tr><td>Hashing algorithm</td><td>YesPoWer</td></tr>
-<tr><td>MN Payment starting block</td><td>1001</td></tr>
+<tr><td>MN Payment starting block</td><td>1080</td></tr>
 <tr><td>Maximum SWAMP supply</td><td>40,000,000</td></tr>
 <tr><td>Premine</td><td>50,000 SWAMP (primarily for masternodes and swap)</td></tr>
 <tr><td>Blocksize</td><td>1 MB</td></tr>
