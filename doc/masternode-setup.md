@@ -24,17 +24,18 @@ Now you are going to update 2 files ending in .conf  These are located in the da
 
 The first file you will update is named swamp.conf'.  Edit it with any editor you like. I use nano on ubuntu. For me to open the file in nano I enter: sudo nano ~/.swampcore/swamp.conf
 
-Add the following substituting in the info you gathered above
+Add the following substituting in the info you gathered above<br><br>
 
-listen=1
-server=1
-daemon=1
-rpcuser=<any username you want without brackets>
-rpcpassword=<any password you want without brackets>
-rpcallowip=127.0.0.1
-masternode=1
-masternodeprivkey=<enter the long string you got from step 1 without the brackets>
-externalip=<enter the public ip of your linux server here without brackets>:33333
+listen=1<br>
+server=1<br>
+daemon=1<br>
+rpcuser=<any username you want without brackets><br>
+rpcpassword=<any password you want without brackets><br>
+rpcallowip=127.0.0.1<br>
+masternode=1<br>
+masternodeprivkey=<enter the long string you got from step 1 without the brackets><br>
+externalip=<enter the public ip of your linux server here without brackets>:33333<br><br>
+    
 
 Save your file.  To save in nano press control and x at the same time, press y to confirm, press enter save
 
