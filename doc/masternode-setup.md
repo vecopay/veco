@@ -62,6 +62,6 @@ You can check status of your masternode by using command: sudo <path to swamp-cl
 
 If you did everything right you will see "Successfully Started" in the message given
 
-Now its time to set up Sentinel to keep things running smoothly and avoid WATCHDOG_EXPIRED status.  Visit https://github.com/swampcoin/sentinel/blob/master/README.md to continue
+Now its time to set up Sentinel to keep things running smoothly and avoid WATCHDOG_EXPIRED status.  Visit https://github.com/swampcoin/sentinel/blob/master/README.md to continue for Linux and https://github.com/swampcoin/sentinel/blob/master/sentinel-for-windows.md for Windows
 
 
