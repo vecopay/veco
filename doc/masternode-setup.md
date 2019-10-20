@@ -29,12 +29,12 @@ Add the following substituting in the info you gathered above<br><br>
 listen=1<br>
 server=1<br>
 daemon=1<br>
-rpcuser=<any username you want without brackets><br>
-rpcpassword=<any password you want without brackets><br>
+rpcuser=any-username-you-want<br>
+rpcpassword=any-password-you-want<br>
 rpcallowip=127.0.0.1<br>
 masternode=1<br>
-masternodeprivkey=<enter the long string you got from step 1 without the brackets><br>
-externalip=<enter the public ip of your linux server here without brackets>:33333<br><br>
+masternodeprivkey=enter-the-long-string-you-got-from-step-1<br>
+externalip=enter-the-public-ip-of-your-linux-server-here:33333<br><br>
     
 
 Save your file.  To save in nano press control and x at the same time, press y to confirm, press enter save
