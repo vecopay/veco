@@ -19,8 +19,10 @@ git clone https://github.com/swampcoin/swamp.git
 cd swamp
 A copy of the macOS SDK is required during the build process. 
 
-download Xcode_7.3.1 frm apple your own way 
+download Xcode_7.3.1 from apple your own way 
+
 OR
+
 To download this, use a Google Chrome in a desktop environment to go to https://appleid.apple.com and create or sign in to your Apple account. Then go to https://developer.apple.com and open the Chrome Developer Tools from the Menu -> More tools -> Developer tools. Click on the Network tab, then go back to your main browser window and copy in the following URL:
 https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_7.3.1/Xcode_7.3.1.dmg
 Cancel the download as soon as it begins and go back to your the Network tab in the developer tools. Right click on the network request at the bottom of the list labeled Xcode_7.3.1.dmg and select Copy -> Copy as cURL (bash). Paste this long string of text into your Linux terminal, append -o Xcode_7.3.1.dmg at the end and then press enter to begin the download. Once it is complete, extract the required files from the disc image as follows:
