@@ -1,4 +1,4 @@
-Swamp Core 1.0.0.0
+Swamp Core 1.0.1.0
 =====================
 
 This is the official reference wallet for Swamp digital currency and comprises the backbone of the Swamp peer-to-peer network. You can [download Swamp Core](https://github.com/swampdev-the-man/swamp/releases) or [build it yourself](#building) using the guides below.
