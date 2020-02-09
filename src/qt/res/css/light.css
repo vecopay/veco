@@ -837,7 +837,6 @@ qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 font-size:12px;
 background-color:#F8F6F6;
-opacity:0.3;
 margin-right:5px;
 padding-right:5px;
 }
@@ -1323,7 +1322,7 @@ padding-right:5px;
 
 QStackedWidget#SendCoinsEntry .QFrame#SendCoins .QLabel#amountLabel {
 color: #fff;
-background-color:#999;
+background-color:#006600;
 }
 
 QStackedWidget#SendCoinsEntry .QValidatedLineEdit#payTo { /* Pay To Input Field */
@@ -1509,8 +1508,7 @@ padding-right:5px;
 }
 
 QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label { /* Amount Label */
-background-color:#999;
-border: 1px solid #fff;
+background-color:#006600;
 min-width:102px;
 color:#ffffff;
 /*font-weight:bold;
