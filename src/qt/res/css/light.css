@@ -837,6 +837,7 @@ qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 font-size:12px;
 background-color:#F8F6F6;
+opacity:0.3;
 margin-right:5px;
 padding-right:5px;
 }
