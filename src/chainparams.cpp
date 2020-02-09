@@ -71,7 +71,7 @@ public:
         consensus.BIP34Hash = uint256S("0x000003fd1dff397d1be86183efd9e13f0316b5f5a3082bac91975a421bc43021");
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
         consensus.nPowTargetTimespan = 86400; // Swamp: 1 day
-        consensus.nPowTargetSpacing = 110; // Swamp: 2.0 minutes
+        consensus.nPowTargetSpacing = 110; // ALmost 2.0 minutes
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nPowKGWHeight = 0;
@@ -193,7 +193,7 @@ public:
         consensus.BIP34Hash = uint256S("0x00000997e30aad936446ab7226cecd21875e867a57aca1a46d17be4316bab391");
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
         consensus.nPowTargetTimespan = 24 * 60 * 60; // Swamp: 1 day
-        consensus.nPowTargetSpacing = 2.0 * 60; // Swamp: 2.0 minutes
+        consensus.nPowTargetSpacing = 2.0 * 60; // almost 2.0 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
         consensus.nPowKGWHeight = 0;
@@ -309,7 +309,7 @@ public:
         consensus.BIP34Hash = uint256();
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 24 * 60 * 60; // Swamp: 1 day
-        consensus.nPowTargetSpacing = 2.0 * 60; // Swamp: 2.0 minutes
+        consensus.nPowTargetSpacing = 2.0 * 60; // almost 2.0 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = true;
         consensus.nPowKGWHeight = 0;
