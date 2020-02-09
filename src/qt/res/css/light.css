@@ -103,7 +103,7 @@ background-color:#f2f2f2;
 /*******************************************************/
 
 QPushButton { /* Global Button Style */
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f39f53, stop: .1 #006600, stop: .95 #006600, stop: 1 #006600);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #00cc00, stop: .1 #006600, stop: .95 #006600, stop: 1 #006600);
 border:0;
 border-radius:3px;
 color:#ffffff;
@@ -117,7 +117,7 @@ padding-bottom:5px;
 }
 
 QPushButton:hover {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f39f53, stop: .1 #f39f53, stop: .95 #f39f53, stop: 1 #006600);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #00cc00, stop: .1 #00cc00, stop: .95 #00cc00, stop: 1 #006600);
 }
 
 QPushButton:focus {
@@ -278,7 +278,7 @@ background-color:transparent;
 
 QHeaderView::section { /* Table Header Sections */
 qproperty-alignment:center;
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #f39f53, stop: 1 #006600);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #00cc00, stop: 1 #006600);
 color:#fff;
 min-height:25px;
 font-weight:bold;
