@@ -1075,7 +1075,7 @@ min-height:25px;
 font-size:11px;
 padding:0px;
 */
-background-color:#4d2802;
+background-color:rgba(0, 102, 0, 0.5);
 min-height: 40px;
 font-size:13px;
 font-weight:normal;
@@ -1107,7 +1107,7 @@ min-height:25px;
 font-size:11px;
 padding:0px;
 */
-background-color:#4d2802;
+background-color:rgba(0, 102, 0, 0.5);
 min-height: 40px;
 font-size:13px;
 font-weight:normal;
