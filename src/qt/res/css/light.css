@@ -1394,11 +1394,13 @@ padding-left:10px;
 /* SEND COINS ENTRY */
 
 QStackedWidget#SendCoinsEntry .QFrame#SendCoins > .QLabel { /* Send Coin Entry Labels */
-background-color:#F8F6F6;
+/*background-color:#F8F6F6;*/
+background-color:transparent;
 min-width:102px;
 font-weight:normal;
 /*font-size:11px;*/
-color:#333;
+color:#006600;
+font-weight:bold;
 min-height:25px;
 margin-right:5px;
 padding-right:5px;
@@ -1407,6 +1409,11 @@ padding-right:5px;
 QStackedWidget#SendCoinsEntry .QFrame#SendCoins .QLabel#amountLabel {
 color: #fff;
 background-color:#006600;
+min-height:40px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
 }
 
 QStackedWidget#SendCoinsEntry .QValidatedLineEdit#payTo { /* Pay To Input Field */
@@ -1582,12 +1589,13 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::indicator { /* Coin
 /* RECEIVE COINS */
 
 QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label_2 { /* Label Label */
-background-color:#F8F6F6;
+/*background-color:#F8F6F6;*/
+background-color:transparent;
 border: 1px solid #fff;
 min-width:102px;
-color:#333;
-/*font-weight:bold;
-font-size:11px;*/
+color:#006600;
+font-weight:bold;
+/*font-size:11px;*/
 padding-right:5px;
 }
 
@@ -1595,6 +1603,11 @@ QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label { /* Amount Label */
 background-color:#006600;
 min-width:102px;
 color:#ffffff;
+min-height:40px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
 /*font-weight:bold;
 font-size:11px;*/
 padding-right:5px;
