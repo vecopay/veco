@@ -210,9 +210,9 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *platformStyle, const NetworkStyle *n
     web->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
     web->setOpenExternalLinks(true);
 #ifndef QT_NO_TOOLTIP
-    web->setToolTip(QApplication::translate("OverviewPage", "Visit HTH Worldwide NonProfit.", nullptr));
+    web->setToolTip(QApplication::translate("OverviewPage", "Visit Swamp Coin on Facebook.", nullptr));
 #endif // QT_NO_TOOLTIP
-    web->setText(QApplication::translate("OverviewPage", "<a href=\"https://helpthehomelessworldwide.org\"><img src=\":/icons/web\" width=\"21\" height=\"21\"></a>", nullptr));
+    web->setText(QApplication::translate("OverviewPage", "<a href=\"https://www.facebook.com/Swamp-Coin-102068301351759\"><img src=\":/icons/web\" width=\"21\" height=\"21\"></a>", nullptr));
             
             QLabel* www = new QLabel();
     www->setObjectName(QStringLiteral("www"));
@@ -223,9 +223,9 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *platformStyle, const NetworkStyle *n
     www->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
     www->setOpenExternalLinks(true);
 #ifndef QT_NO_TOOLTIP
-    www->setToolTip(QApplication::translate("OverviewPage", "Visit HTH Coin.", nullptr));
+    www->setToolTip(QApplication::translate("OverviewPage", "Visit the Swamp Coin Website.", nullptr));
 #endif // QT_NO_TOOLTIP
-    www->setText(QApplication::translate("OverviewPage", "<a href=\"https://hth.world\"><img src=\":/icons/www\" width=\"21\" height=\"21\"></a>", nullptr));
+    www->setText(QApplication::translate("OverviewPage", "<a href=\"https://swampcoin.tech\"><img src=\":/icons/www\" width=\"21\" height=\"21\"></a>", nullptr));
             
             
     QLabel* mcm = new QLabel();
@@ -237,9 +237,9 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *platformStyle, const NetworkStyle *n
     mcm->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
     mcm->setOpenExternalLinks(true);
 #ifndef QT_NO_TOOLTIP
-    mcm->setToolTip(QApplication::translate("OverviewPage", "Visit Exchanges.", nullptr));
+    mcm->setToolTip(QApplication::translate("OverviewPage", "Swamp Coin is Open Source on Github.", nullptr));
 #endif // QT_NO_TOOLTIP
-    mcm->setText(QApplication::translate("OverviewPage", "<a href=\"https://hth.world/exchanges.html\"><img src=\":/icons/mcm\" width=\"21\" height=\"21\"></a>", nullptr));
+    mcm->setText(QApplication::translate("OverviewPage", "<a href=\"https://github.com/swampcoin/swamp\"><img src=\":/icons/mcm\" width=\"21\" height=\"21\"></a>", nullptr));
     QLabel* twitter = new QLabel();
     twitter->setObjectName(QStringLiteral("twitter"));
     twitter->setMinimumSize(QSize(21, 21));
@@ -249,9 +249,9 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *platformStyle, const NetworkStyle *n
     twitter->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
     twitter->setOpenExternalLinks(true);
 #ifndef QT_NO_TOOLTIP
-    twitter->setToolTip(QApplication::translate("OverviewPage", "Follow HTH on Twitter.", nullptr));
+    twitter->setToolTip(QApplication::translate("OverviewPage", "Follow Swamp Coin on Twitter.", nullptr));
 #endif // QT_NO_TOOLTIP
-    twitter->setText(QApplication::translate("OverviewPage", "<a href=\"https://twitter.com/HTHCoin\"><img src=\":/icons/twitter\" width=\"21\" height=\"21\"></a>", nullptr));
+    twitter->setText(QApplication::translate("OverviewPage", "<a href=\"https://twitter.com/SwampCoin\"><img src=\":/icons/twitter\" width=\"21\" height=\"21\"></a>", nullptr));
     QLabel* discord = new QLabel();
     discord->setObjectName(QStringLiteral("discord"));
     discord->setMinimumSize(QSize(21, 21));
@@ -261,7 +261,7 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *platformStyle, const NetworkStyle *n
     discord->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
     discord->setOpenExternalLinks(true);
 #ifndef QT_NO_TOOLTIP
-    discord->setToolTip(QApplication::translate("OverviewPage", "Join the official HTH Discord community.", nullptr));
+    discord->setToolTip(QApplication::translate("OverviewPage", "Join the Official Swamp Coin Discord Community.", nullptr));
 #endif // QT_NO_TOOLTIP
     discord->setText(QApplication::translate("OverviewPage", "<a href=\"https://discord.gg/r7zKfy5\"><img src=\":/icons/discord\" width=\"21\" height=\"21\"></a>", nullptr));
             
@@ -274,9 +274,9 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *platformStyle, const NetworkStyle *n
     webs->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
     webs->setOpenExternalLinks(true);
 #ifndef QT_NO_TOOLTIP
-    webs->setToolTip(QApplication::translate("OverviewPage", "Visit HTH Explorer.", nullptr));
+    webs->setToolTip(QApplication::translate("OverviewPage", "Explore the Swamp Coin Blockchain.", nullptr));
 #endif // QT_NO_TOOLTIP
-    webs->setText(QApplication::translate("OverviewPage", "<a href=\"https://openchains.info/coin/hth/about\"><img src=\":/icons/webs\" width=\"21\" height=\"21\"></a>", nullptr));
+    webs->setText(QApplication::translate("OverviewPage", "<a href=\"http://swampexplorer.swampthing.net\"><img src=\":/icons/webs\" width=\"21\" height=\"21\"></a>", nullptr));
      
     frameSocialLayout->addWidget(webs);        
     frameSocialLayout->addWidget(www);        
