@@ -90,15 +90,6 @@ If you'd like to support the development of Veco, please send us any amount of c
 Cryptocurrency | Address
 -------------- | -------
 **Veco:** | VEEgBHWiHBKpjmxqQkov6NzWcPWkgdzFDj
-**Bitcoin:** | 17ydYBDMF2k4DMDYfuNCUAsU8nKW2YozXp
-**Bitcoin Cash:** | qrfh4sdanp96uwa49hzdfgnwe9ddwtyglc3p363g2m
-**Ethereum:** | 0xFcD5E4C37E8bc4774adf9a5e9c9dCceD574789ab
-**Ethereum Classic:** | 0xb9aAF69164976b71BeF772F70244b77fB196Fb09
-**Dash:** | XiKsMqc9qSWLKk8e4FVQbPYMEEnuAfn79D
-**Litecoin:** | LUoQufH5w8w3nAMyXB4jw8zF58iATpoGqc
-**DigiByte:** | DMFWeRBSEqM3EDeWiELimojcKvGkG4HjbR
-**Zcash:** | t1aQExUM52xXLmqE2hHK3LtKTrZCcj3nxf2
-**0x:** | 0xFcD5E4C37E8bc4774adf9a5e9c9dCceD574789ab
 
 
 If you would like to donate to help the project in another cryptocurrency that is not listed above, please send us an e-mail or message. Thank you in advance for supporting Veco!
