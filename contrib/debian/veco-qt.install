@@ -1,0 +1,6 @@
+usr/local/bin/veco-qt usr/bin
+share/pixmaps/veco32.xpm usr/share/pixmaps
+share/pixmaps/veco16.xpm usr/share/pixmaps
+share/pixmaps/veco128.png usr/share/pixmaps
+debian/veco-qt.desktop usr/share/applications
+debian/veco-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,68 @@
+Source: veco
+Section: utils
+Priority: optional
+Maintainer: Holger Schinzel <holger@veco.org>
+Uploaders: Holger Schinzel <holger@veco.org>
+Build-Depends: debhelper,
+ devscripts,
+ automake,
+ libtool,
+ bash-completion,
+ libdb4.8++-dev,
+ libssl-dev,
+ pkg-config,
+ libevent-dev,
+ libboost-system1.48-dev | libboost-system-dev (>> 1.35),
+ libboost-filesystem1.48-dev | libboost-filesystem-dev (>> 1.35),
+ libboost-program-options1.48-dev | libboost-program-options-dev (>> 1.35),
+ libboost-thread1.48-dev | libboost-thread-dev (>> 1.35),
+ libboost-test1.48-dev | libboost-test-dev (>> 1.35),
+ libboost-chrono1.48-dev | libboost-chrono-dev (>> 1.35),
+ qt4-qmake,
+ libqt4-dev,
+ libqrencode-dev,
+ libprotobuf-dev, protobuf-compiler,
+ python
+Standards-Version: 3.9.2
+Homepage: https://www.veco.to/
+Vcs-Git: git://github.com/VecoOfficial/Veco.git
+Vcs-Browser: https://github.com/VecoOfficial/Veco
+
+Package: vecod
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - daemon
+ Veco is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Veco uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Veco Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides the daemon, vecod, and the CLI tool
+ veco-cli to interact with the daemon.
+
+Package: veco-qt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - Qt GUI
+ Veco is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Veco uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Veco Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides Veco-Qt, a GUI for Veco based on Qt.
+
+Package: veco-tx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer digital currency - standalone transaction tool
+ Veco is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Veco uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Veco Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides veco-tx, a command-line transaction creation
+ tool which can be used without a veco daemon.  Some means of
+ exchanging minimal transaction data with peers is still required.
