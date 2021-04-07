@@ -1235,28 +1235,26 @@ CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params&
 
     if(nPrevHeight < 1) {
 		nSubsidyBase = 800000;
-	}
-        else if (nPrevHeight > 10352495) {		
-		nSubsidyBase = 0; // 
-	}
+        }
+        else if (nPrevHeight > 11094416) {
+        nSubsidyBase = 0; // 
+        }
         else {
             if((nPrevHeight > 1)       & (nPrevHeight <= 10080))   nSubsidyBase = 10;
-            if((nPrevHeight > 10080)   & (nPrevHeight <= 262799))  nSubsidyBase = 16; 	
-            if((nPrevHeight > 262799)  & (nPrevHeight <= 525599))  nSubsidyBase = 15; 
-            if((nPrevHeight > 525599)  & (nPrevHeight <= 788399))  nSubsidyBase = 14; 	
-            if((nPrevHeight > 788399)  & (nPrevHeight <= 1051199)) nSubsidyBase = 13; 
-            if((nPrevHeight > 1051199) & (nPrevHeight <= 1313999)) nSubsidyBase = 12; 
-            if((nPrevHeight > 1313999) & (nPrevHeight <= 1576799)) nSubsidyBase = 10; 
-            if((nPrevHeight > 1576799) & (nPrevHeight <= 1839599)) nSubsidyBase = 9;	
-            if((nPrevHeight > 1839599) & (nPrevHeight <= 2102399)) nSubsidyBase = 8;
-            if((nPrevHeight > 2102399) & (nPrevHeight <= 2365199)) nSubsidyBase = 7;
-            if((nPrevHeight > 2365199) & (nPrevHeight <= 2627999)) nSubsidyBase = 6;
-            if((nPrevHeight > 2627999) & (nPrevHeight <= 2890799)) nSubsidyBase = 5;
-            if((nPrevHeight > 2890799) & (nPrevHeight <= 3153599)) nSubsidyBase = 4;
-            if((nPrevHeight > 3153599) & (nPrevHeight <= 3416399)) nSubsidyBase = 3;
-            if((nPrevHeight > 3416399) & (nPrevHeight <= 3679199)) nSubsidyBase = 2;
-            if((nPrevHeight > 3679199) & (nPrevHeight <= 10352495)) nSubsidyBase = 1;
-    }
+            if((nPrevHeight > 10080)   & (nPrevHeight <= 262799))  nSubsidyBase = 16;
+            if((nPrevHeight > 262799)  & (nPrevHeight <= 525599))  nSubsidyBase = 15;
+            if((nPrevHeight > 525599)  & (nPrevHeight <= 788399))  nSubsidyBase = 14;
+            if((nPrevHeight > 788399)  & (nPrevHeight <= 1051199)) nSubsidyBase = 10;
+            if((nPrevHeight > 1051199) & (nPrevHeight <= 1313999)) nSubsidyBase = 9;
+            if((nPrevHeight > 1313999) & (nPrevHeight <= 1576799)) nSubsidyBase = 8;
+            if((nPrevHeight > 1576799) & (nPrevHeight <= 1839599)) nSubsidyBase = 7;
+            if((nPrevHeight > 1839599) & (nPrevHeight <= 2102399)) nSubsidyBase = 6;
+            if((nPrevHeight > 2102399) & (nPrevHeight <= 2365199)) nSubsidyBase = 5;
+            if((nPrevHeight > 2365199) & (nPrevHeight <= 2627999)) nSubsidyBase = 4;
+            if((nPrevHeight > 2627999) & (nPrevHeight <= 2890799)) nSubsidyBase = 3;
+            if((nPrevHeight > 2890799) & (nPrevHeight <= 4467599)) nSubsidyBase = 2;
+            if((nPrevHeight > 4467599) & (nPrevHeight <= 11094416)) nSubsidyBase = 1;
+        }
 
     // LogPrintf("height %u diff %4.2f reward %d\n", nPrevHeight, dDiff, nSubsidyBase);
     CAmount nSubsidy = nSubsidyBase * COIN;
@@ -1274,12 +1272,10 @@ CAmount GetMasternodePayment(int nHeight, CAmount blockValue)
     int nMNPIPeriod = Params().GetConsensus().nMasternodePaymentsIncreasePeriod;
 
                                                                       // mainnet:
-    if(nHeight > nMNPIBlock)    ret = blockValue / 16 * 6; 
-    if(nHeight > nMNPIPeriod)   ret = blockValue / 15 * 7; 
-    if(nHeight > nMNPIPeriod*2) ret = blockValue / 14 * 8; 
-    if(nHeight > nMNPIPeriod*3) ret = blockValue / 13 * 9; 
-    if(nHeight > nMNPIPeriod*4) ret = blockValue / 12 * 9;
-    if(nHeight > nMNPIPeriod*5) ret = blockValue * 0.8;
+    if(nHeight > nMNPIBlock)    ret = blockValue / 16 * 6;
+    if(nHeight > nMNPIPeriod)   ret = blockValue / 15 * 7;
+    if(nHeight > nMNPIPeriod*2) ret = blockValue / 14 * 8;
+    if(nHeight > nMNPIPeriod*3) ret = blockValue / 2;
 
     return ret;
 }
