@@ -150,11 +150,11 @@ public:
         vSeeds.push_back(CDNSSeedData("veco.to", "trade.veco.to"));
         vSeeds.push_back(CDNSSeedData("veco.to", "edu.veco.to"));
 
-        // Veco addresses start with 'X'
+        // Veco addresses start with 'V'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,70);
-        // Veco script addresses start with '7'
+        // Veco script addresses start with '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,20);
-        // Veco private keys start with '7' or 'X'
+        // Veco private keys start with 'X'
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,75);
         // Veco BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
@@ -174,7 +174,7 @@ public:
 
         nPoolMaxTransactions = 3;
         nFulfilledRequestExpireTime = 60*60; // fulfilled requests expire in 1 hour
-        strSporkPubKey = "04549ac134f694c0243f503e8c8a9a986f5de6610049c40b07816809b0d1d06a21b07be27b9bb555931773f62ba6cf35a25fd52f694d4e1106ccd237a7bb899fdd";
+        strSporkPubKey = "04825df8a146091cd7527a55a648cf1c23efb3cc25bed2029eaa17a606918be747b9afa29e08da4df312f8cfc9823fb3707635e8744000390574b40f28c0d509a9";
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
@@ -333,11 +333,11 @@ public:
         consensus.BIP34Hash = uint256();
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 24 * 60 * 60; // Veco: 1 day
-        consensus.nPowTargetSpacing = 2.5 * 60; // Veco: 2.5 minutes
+        consensus.nPowTargetSpacing = 2.0 * 60; // Veco: 2 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = true;
-        consensus.nPowKGWHeight = 15200; // same as mainnet
-        consensus.nPowDGWHeight = 34140; // same as mainnet
+        consensus.nPowKGWHeight = 0; // same as mainnet
+        consensus.nPowDGWHeight = 0; // same as mainnet
         consensus.nRuleChangeActivationThreshold = 108; // 75% for testchains
         consensus.nMinerConfirmationWindow = 144; // Faster than normal for regtest (144 instead of 2016)
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;
