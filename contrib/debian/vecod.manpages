@@ -1,3 +1,2 @@
-debian/manpages/vecod.1
-debian/manpages/veco.conf.5
-debian/manpages/veco-cli.1
+doc/man/vecod.1
+doc/man/veco-cli.1
