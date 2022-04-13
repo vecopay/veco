@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2018 The Dash Core developers 
-// Copyright (c) 2018-2021 The Veco Core developers
+// Copyright (c) 2014-2017 The Dash Core developers
+// Copyright (c) 2018-2022 The Veco Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -23,12 +23,12 @@
 #include <QMessageBox>
 #include <QSortFilterProxyModel>
 
-AddressBookPage::AddressBookPage(const PlatformStyle *platformStyle, Mode mode, Tabs tab, QWidget *parent) :
+AddressBookPage::AddressBookPage(const PlatformStyle *platformStyle, Mode _mode, Tabs _tab, QWidget *parent) :
     QDialog(parent),
     ui(new Ui::AddressBookPage),
     model(0),
-    mode(mode),
-    tab(tab)
+    mode(_mode),
+    tab(_tab)
 {
     QString theme = GUIUtil::getThemeName();
     ui->setupUi(this);
@@ -109,14 +109,14 @@ AddressBookPage::~AddressBookPage()
     delete ui;
 }
 
-void AddressBookPage::setModel(AddressTableModel *model)
+void AddressBookPage::setModel(AddressTableModel *_model)
 {
-    this->model = model;
-    if(!model)
+    this->model = _model;
+    if(!_model)
         return;
 
     proxyModel = new QSortFilterProxyModel(this);
-    proxyModel->setSourceModel(model);
+    proxyModel->setSourceModel(_model);
     proxyModel->setDynamicSortFilter(true);
     proxyModel->setSortCaseSensitivity(Qt::CaseInsensitive);
     proxyModel->setFilterCaseSensitivity(Qt::CaseInsensitive);
@@ -149,7 +149,7 @@ void AddressBookPage::setModel(AddressTableModel *model)
         this, SLOT(selectionChanged()));
 
     // Select row for newly created address
-    connect(model, SIGNAL(rowsInserted(QModelIndex,int,int)), this, SLOT(selectNewAddress(QModelIndex,int,int)));
+    connect(_model, SIGNAL(rowsInserted(QModelIndex,int,int)), this, SLOT(selectNewAddress(QModelIndex,int,int)));
 
     selectionChanged();
 }

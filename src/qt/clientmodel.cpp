@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2018 The Dash Core developers 
-// Copyright (c) 2018-2021 The Veco Core developers
+// Copyright (c) 2014-2017 The Dash Core developers
+// Copyright (c) 2018-2022 The Veco Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -8,6 +8,7 @@
 
 #include "bantablemodel.h"
 #include "guiconstants.h"
+#include "guiutil.h"
 #include "peertablemodel.h"
 
 #include "alert.h"
@@ -35,9 +36,9 @@ static const int64_t nClientStartupTime = GetTime();
 static int64_t nLastHeaderTipUpdateNotification = 0;
 static int64_t nLastBlockTipUpdateNotification = 0;
 
-ClientModel::ClientModel(OptionsModel *optionsModel, QObject *parent) :
+ClientModel::ClientModel(OptionsModel *_optionsModel, QObject *parent) :
     QObject(parent),
-    optionsModel(optionsModel),
+    optionsModel(_optionsModel),
     peerTableModel(0),
     cachedMasternodeCountString(""),
     banTableModel(0),
@@ -84,7 +85,7 @@ QString ClientModel::getMasternodeCountString() const
 {
     // return tr("Total: %1 (PS compatible: %2 / Enabled: %3) (IPv4: %4, IPv6: %5, TOR: %6)").arg(QString::number((int)mnodeman.size()))
     return tr("Total: %1 (PS compatible: %2 / Enabled: %3)")
-            .arg(QString::number((int)mnodeman.size()))
+            .arg(QString::number((int)mnodeman.CountMasternodes(0)))
             .arg(QString::number((int)mnodeman.CountEnabled(MIN_PRIVATESEND_PEER_PROTO_VERSION)))
             .arg(QString::number((int)mnodeman.CountEnabled()));
             // .arg(QString::number((int)mnodeman.CountByIP(NET_IPV4)))
@@ -166,7 +167,7 @@ double ClientModel::getVerificationProgress(const CBlockIndex *tipIn) const
         LOCK(cs_main);
         tip = chainActive.Tip();
     }
-    return Checkpoints::GuessVerificationProgress(Params().Checkpoints(), tip);
+    return GuessVerificationProgress(Params().TxData(), tip);
 }
 
 void ClientModel::updateTimer()
@@ -283,11 +284,6 @@ bool ClientModel::isReleaseVersion() const
     return CLIENT_VERSION_IS_RELEASE;
 }
 
-QString ClientModel::clientName() const
-{
-    return QString::fromStdString(CLIENT_NAME);
-}
-
 QString ClientModel::formatClientStartupTime() const
 {
     return QDateTime::fromTime_t(nClientStartupTime).toString();
@@ -295,7 +291,7 @@ QString ClientModel::formatClientStartupTime() const
 
 QString ClientModel::dataDir() const
 {
-    return QString::fromStdString(GetDataDir().string());
+    return GUIUtil::boostPathToQString(GetDataDir());
 }
 
 void ClientModel::updateBanlist()

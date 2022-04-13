@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2018 The Dash Core developers 
-// Copyright (c) 2018-2021 The Veco Core developers
+// Copyright (c) 2014-2017 The Dash Core developers
+// Copyright (c) 2018-2022 The Veco Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -23,7 +23,7 @@ QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
     unitlist.append(VECO);
     unitlist.append(mVECO);
     unitlist.append(uVECO);
-    unitlist.append(veffs);
+    unitlist.append(duffs);
     return unitlist;
 }
 
@@ -34,7 +34,7 @@ bool BitcoinUnits::valid(int unit)
     case VECO:
     case mVECO:
     case uVECO:
-    case veffs:
+    case duffs:
         return true;
     default:
         return false;
@@ -50,7 +50,7 @@ QString BitcoinUnits::name(int unit)
             case VECO: return QString("VECO");
             case mVECO: return QString("mVECO");
             case uVECO: return QString::fromUtf8("μVECO");
-            case veffs: return QString("veffs");
+            case duffs: return QString("duffs");
             default: return QString("???");
         }
     }
@@ -61,7 +61,7 @@ QString BitcoinUnits::name(int unit)
             case VECO: return QString("tVECO");
             case mVECO: return QString("mtVECO");
             case uVECO: return QString::fromUtf8("μtVECO");
-            case veffs: return QString("tveffs");
+            case duffs: return QString("tduffs");
             default: return QString("???");
         }
     }
@@ -76,7 +76,7 @@ QString BitcoinUnits::description(int unit)
             case VECO: return QString("Veco");
             case mVECO: return QString("Milli-Veco (1 / 1" THIN_SP_UTF8 "000)");
             case uVECO: return QString("Micro-Veco (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case veffs: return QString("Ten Nano-Veco (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-Veco (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -87,7 +87,7 @@ QString BitcoinUnits::description(int unit)
             case VECO: return QString("TestVecos");
             case mVECO: return QString("Milli-TestVeco (1 / 1" THIN_SP_UTF8 "000)");
             case uVECO: return QString("Micro-TestVeco (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case veffs: return QString("Ten Nano-TestVeco (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-TestVeco (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -100,7 +100,7 @@ qint64 BitcoinUnits::factor(int unit)
     case VECO:  return 100000000;
     case mVECO: return 100000;
     case uVECO: return 100;
-    case veffs: return 1;
+    case duffs: return 1;
     default:   return 100000000;
     }
 }
@@ -112,7 +112,7 @@ int BitcoinUnits::decimals(int unit)
     case VECO: return 8;
     case mVECO: return 5;
     case uVECO: return 2;
-    case veffs: return 0;
+    case duffs: return 0;
     default: return 0;
     }
 }

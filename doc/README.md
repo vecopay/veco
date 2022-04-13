@@ -1,7 +1,7 @@
-Veco Core 0.12.1
+Veco Core 0.13.0
 =====================
 
-This is the official reference wallet for Veco digital currency and comprises the backbone of the Veco peer-to-peer network. You can [download Veco Core](https://www.veco.to/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Veco digital currency and comprises the backbone of the Veco peer-to-peer network. You can [download Veco Core](https://www.veco.org/downloads/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
@@ -24,10 +24,10 @@ Drag Veco-Qt to your applications folder, and then run Veco-Qt.
 
 ### Need Help?
 
-* See the [Veco documentation](https://vecopay.atlassian.net/wiki/display/DOC)
+* See the [Veco documentation](https://docs.veco.org)
 for help and more information.
-* Ask for help on [#vecopay](http://webchat.freenode.net?channels=vecopay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=vecopay).
-* Ask for help on the [VecoTalk](https://vecotalk.org/) forums.
+* Ask for help on [Veco Nation Discord](http://vecochat.org)
+* Ask for help on the [Veco Forum](https://veco.org/forum)
 
 Building
 ---------------------
@@ -44,30 +44,32 @@ Development
 The Veco Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
-- [Multiwallet Qt Development](multiwallet-qt.md)
 - [Release Notes](release-notes.md)
 - [Release Process](release-process.md)
 - Source Code Documentation ***TODO***
 - [Translation Process](translation_process.md)
 - [Translation Strings Policy](translation_strings_policy.md)
-- [Unit Tests](unit-tests.md)
+- [Travis CI](travis-ci.md)
 - [Unauthenticated REST Interface](REST-interface.md)
 - [Shared Libraries](shared-libraries.md)
 - [BIPS](bips.md)
 - [Dnsseed Policy](dnsseed-policy.md)
+- [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [VecoTalk](https://vecotalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#vecopay](http://webchat.freenode.net/?channels=vecopay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=vecopay).
+* Discuss on the [Veco Forum](https://veco.org/forum), in the Development & Technical Discussion board.
+* Discuss on [Veco Nation Discord](http://vecochat.org)
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
 - [Files](files.md)
+- [Reduce Traffic](reduce-traffic.md)
 - [Tor Support](tor.md)
 - [Init Scripts (systemd/upstart/openrc)](init.md)
+- [ZMQ](zmq.md)
 
 License
 ---------------------
-Distributed under the [MIT software license](http://www.opensource.org/licenses/mit-license.php).
+Distributed under the [MIT software license](/COPYING).
 This product includes software developed by the OpenSSL Project for use in the [OpenSSL Toolkit](https://www.openssl.org/). This product includes
 cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cryptsoft.com)), and UPnP software written by Thomas Bernard.

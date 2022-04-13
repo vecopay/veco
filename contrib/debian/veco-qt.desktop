@@ -1,7 +1,8 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Veco
+Name=Veco Core
 Comment=Veco P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Veco peer-to-peer Netzwerk
 Comment[fr]=Veco, monnaie virtuelle cryptographique pair à pair
 Comment[tr]=Veco, eşten eşe kriptografik sanal para birimi
 Exec=veco-qt %u
