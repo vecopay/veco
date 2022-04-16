@@ -197,7 +197,7 @@ public:
         consensus.BIP34Hash = uint256S("0x00000060c6735b936ab261736f4caf926ba60c91f97d6ffe671a0285f57fb98a");
         consensus.BIP65Height = 951; // 00000000000076d8fcea02ec0963de4abfd01e771fec0863f960c2c64fe6f357
         consensus.BIP66Height = 951; // 00000000000b1fa2dfa312863570e13fae9ca7b5566cb27e55422620b469aefa
-        consensus.DIP0001Height = 2;
+        consensus.DIP0001Height = 633254;
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000"); // ~uint256(0) >> 20
         consensus.nPowTargetTimespan = 24 * 60 * 60; // Veco: 1 day
         consensus.nPowTargetSpacing = 110; // Veco: ~2 minutes
@@ -218,21 +218,21 @@ public:
 
         // Deployment of DIP0001
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].bit = 1;
-        consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nStartTime = 0; // Oct 15th, 2017
+        consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nStartTime = 1650884400; // Oct 15th, 2017
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nTimeout = 999999999999ULL; // Oct 15th, 2018
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nWindowSize = 2;
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0001].nThreshold = 2; // 80% of 4032
 
         // Deployment of BIP147
         consensus.vDeployments[Consensus::DEPLOYMENT_BIP147].bit = 2;
-        consensus.vDeployments[Consensus::DEPLOYMENT_BIP147].nStartTime = 0; // Apr 23th, 2018
+        consensus.vDeployments[Consensus::DEPLOYMENT_BIP147].nStartTime = 1651489200; // Apr 23th, 2018
         consensus.vDeployments[Consensus::DEPLOYMENT_BIP147].nTimeout = 999999999999ULL; // Apr 23th, 2019
         consensus.vDeployments[Consensus::DEPLOYMENT_BIP147].nWindowSize = 2;
         consensus.vDeployments[Consensus::DEPLOYMENT_BIP147].nThreshold = 2; // 80% of 4032
 
         // Deployment of DIP0003
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0003].bit = 3;
-        consensus.vDeployments[Consensus::DEPLOYMENT_DIP0003].nStartTime = 0; // Jan 1st, 2019
+        consensus.vDeployments[Consensus::DEPLOYMENT_DIP0003].nStartTime = 1652698800; // Jan 1st, 2019
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0003].nTimeout = 999999999999ULL; // Jan 1st, 2020
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0003].nWindowSize = 2;
         consensus.vDeployments[Consensus::DEPLOYMENT_DIP0003].nThreshold = 2; // 80% of 4032

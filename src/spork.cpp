@@ -28,9 +28,9 @@ std::map<int, int64_t> mapSporkDefaults = {
     {SPORK_10_MASTERNODE_PAY_UPDATED_NODES,  4070908800ULL}, // OFF
     {SPORK_12_RECONSIDER_BLOCKS,             0},             // 0 BLOCKS
     {SPORK_14_REQUIRE_SENTINEL_FLAG,         4070908800ULL}, // OFF
-    {SPORK_15_DETERMINISTIC_MNS_ENABLED,     4070908800ULL}, // OFF
+    {SPORK_15_DETERMINISTIC_MNS_ENABLED,     1654513200},    // ON
     {SPORK_16_INSTANTSEND_AUTOLOCKS,         4070908800ULL}, // OFF
-    {SPORK_17_QUORUM_DKG_ENABLED,            1655463600},    // ON
+    {SPORK_17_QUORUM_DKG_ENABLED,            4070908800ULL}, // OFF
 };
 
 bool CSporkManager::SporkValueIsActive(int nSporkID, int64_t &nActiveValueRet) const
